@@ -1,8 +1,19 @@
-body {
-    background: url("/assets/images/homer_background.jpg");
+  .game {
+    background: url("/assets/images/homer_cropped.png");
     background-size: cover;
-    width: 300px;
-    height: 300px;
-    border: 2px solid;
-    color: yellow
+    background-position: center center;
+    color: yellow;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+.home {
+    background: url("../images/Simpsons_House.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: yellow;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
+

@@ -6,7 +6,7 @@ let quizQuestions = [
     },
     {
     question:"What was the name of Grampa's military unit in World War 2?",
-    answers: ["The Flying Hellfish", "The Sailing Sailfish", "The Tussle Tanks", "The Subpar Subbers"],
+    answers: ["The Flying Hellfish", "The Savage Shellfish", "The Tussle Tanks", "The Subpar Subbers"],
     corectAnswer: "The Flying Hellfish",
     },
     {
