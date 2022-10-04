@@ -2,7 +2,7 @@
     background: url("/assets/images/homer_cropped.png");
     background-size: cover;
     background-position: center center;
-    color: yellow;
+    color: #fcd424;
     background-repeat: no-repeat;
     background-attachment: fixed;
     }
@@ -11,9 +11,134 @@
     background: url("../images/Simpsons_House.jpg");
     background-size: cover;
     background-position: center center;
-    color: yellow;
+    color: #fcd424;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
 }
+/*CSS to import specialist font*/
+@font-face {
+    font-family: Simpsonfont;
+    src: url("/assets/font/Simpsonfont.ttf") format("truetype");
+}
 
+/* -------------------Modal-------------------  */
+.modal-title,
+.contact-header {
+    font-family: 'Simpsonfont', serif;
+    font-weight: 800;
+    text-align: center;
+    padding-left: 44px;
+    color:#fcd424;
+}
+
+.modal-content {
+    background: url("../images/clouds.jpg");
+    background-color: rgba(67, 226, 226, 0.88);
+    text-align: center;
+    border-bottom: transparent;
+    max-width: 450px;
+    font-family: 'Simpsonfont';
+    color:#fcd424;
+}
+
+.modal-header {
+    background: url("../images/clouds.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0.5rem 0.5rem;
+    background-color: aqua;
+    /* border-bottom: 1px solid; */
+}
+
+.modal-body {
+    background: url("../images/clouds.jpg");
+    padding: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0.5rem 0.5rem;
+    background-color: aqua;
+    }
+
+.modal-header .btn-close {
+    padding: 0.5rem 1rem;
+    margin: -.5rem -.5rem -.5rem auto;
+}
+
+.play,
+.submit,
+.reset,
+.help {
+    font-family: 'Simpsonfont', serif;
+    font-size: 1.5em;
+}
+
+.submit:hover {
+    color:var(--dark);
+    background-color: var(--white);
+    border: 2px solid #6c757d;
+}
+
+.reset {
+    border: 2px solid #6c757d;
+}
+
+.reset:hover {
+    background-color: #6c757d;
+    color: var(--white);
+}
+
+.btn-check:focus+.btn-light,
+.btn-light:focus {
+    color: var(--white);
+    background-color:var(--dark);
+    border-color:var(--dark);
+    box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 50%);
+}
+
+.play,
+.resultsBtn {
+    background-color:var(--dark);
+    border: 2px var(--white);
+}
+
+.resultsBtn {
+    margin: 15px;
+}
+
+.play:hover,
+.resultsBtn:hover {
+    background-color: var(--white);
+    border-color: var(--white);
+    color:var(--dark)
+}
+
+a,
+a:hover {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.btn-light.help:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: var(--white);
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.modal-footer {
+    background: url("../images/clouds.jpg");
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0.5rem 0.5rem;
+    background-color: aqua;
+}
