@@ -62,12 +62,11 @@
 
 .modal-content {
     background: url("../images/clouds.jpg");
-    background-color: rgba(67, 226, 226, 0.88);
+    background-color: #70D1FE;
     text-align: center;
     border-bottom: transparent;
     max-width: 450px;
     font-family: 'Simpsonfont';
-    color:#fcd424;
     font-weight: 700;
 }
 
@@ -77,9 +76,8 @@
     background-position: center center;
     background-attachment: fixed;
     padding: 0.5rem 0.5rem;
-    background-color: aqua;
-    /* border-bottom: 1px solid; */
-}
+    background-color: #70D1FE;
+    }
 
 .modal-body {
     background: url("../images/clouds.jpg");
@@ -88,7 +86,8 @@
     background-position: center center;
     background-attachment: fixed;
     padding: 0.5rem 0.5rem;
-    background-color: aqua;
+    background-color: #70D1FE;
+    color: black;
     }
 
 .modal-header .btn-close {
@@ -172,13 +171,52 @@ a:hover {
     background-color: aqua;
 }
 
+.btn
+{
+
+    position: relative;
+    width: 190px;
+    height: 50px;
+	margin-bottom:20px;
+    padding: 0 10px;
+    text-align: center;
+
+    font-size: 30px;
+    color: #333 !important;
+    background: #70D1FE;
+    font-family: 'Simpsonfont';
+    border-radius: 5%;
+}
+
+#btn_container
+{
+    width:40px;
+    height:40px; 
+    border-radius:5px;
+    float:left;
+    text-align: center;
+}
+
+.btn img 
+{  
+ 	margin-top: 10px;
+}
+
+
+.btn span
+{
+	display:inline-block;
+    width: 120px;
+    vertical-align:middle;
+}
+
 /* Custom CSS for Footer - Boostrap template and styled with Custom CSS*/
 
 .footer-list {
     display: flex;
     align-items: stretch;
     /* Default */
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
   
     margin: 0;
@@ -193,20 +231,20 @@ a:hover {
   }
   
   .footer-item {
-    color: black;
+    color: #fcd424;
   }
   
   .footer-item i {
-    color: white;
+    color: #fcd424;
   }
   
   footer {
-    background-color: rgb(231, 243, 231);
-    filter: transparent(90%);
+    background-color: rgb(15, 146, 15);
+    opacity: 50%;;
   }
   
   .btn {
-    color: white;
+    color: #fcd424;
   }
   
   /* End of Footer CSS */
