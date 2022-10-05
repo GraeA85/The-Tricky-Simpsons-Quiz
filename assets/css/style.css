@@ -26,8 +26,25 @@
     font-size: 2em !important;
     font-family: 'Simpsonfont';
     color: #fcd424 !important;
-    
+    padding-right: 1em !important;
 }
+
+.navbar-brand {
+    padding-left: 0.5em;
+}
+
+#donut {
+    
+        border-radius: 50%;
+        -webkit-transition: -webkit-transform 0.8s ease-in-out;
+                transition: transform 0.8s ease-in-out;
+      }
+      
+      #donut:hover {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+      }
+
 
 .nav-link:hover {
     text-decoration: underline;
@@ -51,6 +68,7 @@
     max-width: 450px;
     font-family: 'Simpsonfont';
     color:#fcd424;
+    font-weight: 700;
 }
 
 .modal-header {
