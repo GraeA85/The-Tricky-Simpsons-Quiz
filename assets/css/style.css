@@ -22,6 +22,17 @@
     src: url("/assets/font/Simpsonfont.ttf") format("truetype");
 }
 
+.nav-link {
+    font-size: 2em !important;
+    font-family: 'Simpsonfont';
+    color: #fcd424 !important;
+    
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 /* -------------------Modal-------------------  */
 .modal-title,
 .contact-header {
@@ -142,3 +153,42 @@ a:hover {
     padding: 0.5rem 0.5rem;
     background-color: aqua;
 }
+
+/* Custom CSS for Footer - Boostrap template and styled with Custom CSS*/
+
+.footer-list {
+    display: flex;
+    align-items: stretch;
+    /* Default */
+    justify-content: space-between;
+    width: 100%;
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-item {
+    display: block;
+    flex: 0 1 auto;
+    /* Default */
+    list-style-type: none;
+  }
+  
+  .footer-item {
+    color: black;
+  }
+  
+  .footer-item i {
+    color: white;
+  }
+  
+  footer {
+    background-color: rgb(231, 243, 231);
+    filter: transparent(90%);
+  }
+  
+  .btn {
+    color: white;
+  }
+  
+  /* End of Footer CSS */
