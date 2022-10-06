@@ -2,9 +2,9 @@
     background: url("/assets/images/homer_cropped.png");
     background-size: cover;
     background-position: center center;
-    color: #fcd424;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Simpsonfont';
     }
 
 .home {
@@ -56,7 +56,6 @@
     font-family: 'Simpsonfont', serif;
     font-weight: 800;
     text-align: center;
-    padding-left: 44px;
     color:#fcd424;
 }
 
@@ -93,7 +92,7 @@
 .modal-header .btn-close {
     padding: 0.5rem 1rem;
     margin: -.5rem -.5rem -.5rem auto;
-}
+    }
 
 .play,
 .submit,
@@ -171,7 +170,7 @@ a:hover {
     background-color: aqua;
 }
 
-.btn
+#submit
 {
 
     position: relative;
@@ -186,7 +185,13 @@ a:hover {
     background: #70D1FE;
     font-family: 'Simpsonfont';
     border-radius: 5%;
+    
 }
+
+#donut1:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 
 #btn_container
 {
