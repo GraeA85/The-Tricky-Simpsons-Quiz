@@ -173,7 +173,7 @@ a:hover {
 #submit, #previous, #next
 {
 
-    position: relative;
+    position: absolute;
     width: 190px;
     height: 50px;
 	margin-bottom:20px;
@@ -218,8 +218,8 @@ a:hover {
 
 .slide{
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 150px;
+    top: 90px;
     width: 100%;
     z-index: 1;
     opacity: 0;
@@ -235,6 +235,17 @@ a:hover {
     margin-top: 40px;
   }
 
+  .question {
+    font-size: 3em;
+  }
+
+  .answers {
+    color:#70D1FE;
+    padding-top: 30px;
+    display: grid;
+    font-size: 2em;
+    
+  }
 
 /* Custom CSS for Footer - Boostrap template and styled with Custom CSS*/
 
