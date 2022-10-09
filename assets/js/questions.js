@@ -1,77 +1,152 @@
 const quizQuestions = [
     {
     question: "What is Comic Book Guy's real name?",
-    answers:["Clark Thompson", "Herschel Krustowsky", "Jeffrey Albertson", "Tom McNeil"],
-    corectAnswer: "Jeffrey Albertson"
+    answers: {
+        a: "Clark Thompson", 
+        b: "Herschel Krustowsky", 
+        c: "Jeffrey Albertson", 
+        d: "Tom McNeil"
+    },
+    correctAnswer: "c"
     },
     {
     question:"What was the name of Grampa's military unit in World War 2?",
-    answers: ["The Flying Hellfish", "The Savage Shellfish", "The Tussle Tanks", "The Subpar Subbers"],
-    corectAnswer: "The Flying Hellfish",
+    answers: {
+        a: "The Flying Hellfish", 
+        b: "The Savage Shellfish", 
+        c: "The Tussle Tanks", 
+        d: "The Subpar Subbers"
+    },
+    correctAnswer: "a",
     },
     {
     question: "What is the password Mr Burns uses to enter his panic room? (hint, it's also his place of birth!)",
-    answers: ["Nantucket", "Shelbyville", "Pangea", "Ogdenville"],
-    corectAnswer: "Pangea",
+    answers: {
+        a: "Nantucket", 
+        b: "Shelbyville", 
+        c: "Pangea", 
+        d: "Ogdenville"
+    },
+    correctAnswer: "c",
     },
     {
     question: "What is the Crazy Cat Lady's real name?",
-    answers: ["Susan Diamond", "Francine Cauldron", "Gertrude Fronch", "Eleanor Abernathy"],
-    corectAnswer: "Eleanor Abernathy"
+    answers: { 
+        a: "Susan Diamond", 
+        b: "Francine Cauldron", 
+        c: "Gertrude Fronch", 
+        d: "Eleanor Abernathy"
+    },
+    correctAnswer: "d"
     },
     {
     question: "What is Groundskeeper Willies Surname?",
-    answers: ["McArthur", "MacDonald", "McKenzie", "MacDougal"],
-    corectAnswer: "MacDougal",
+    answers: { 
+        a: "McArthur", 
+        b: "MacDonald", 
+        c: "McKenzie", 
+        d: "MacDougal"
+    },
+    correctAnswer: "d",
     },
     {
-    question: "What is the name of the university Moe attended?",
-    answers: ["Drinkston University", "Swigmore University", "Chugsville University", "He didn't attend University"],
-    corectAnswer: "Swigmore University",
+    question: "What is the name of the University Moe attended?",
+    answers: { 
+        a: "Drinkston University", 
+        b: "Swigmore University", 
+        c: "Chugsville University", 
+        d: "He didn't attend University"
+    },
+    correctAnswer: "b",
     },
     {
     question: "What is the pet name of the car driven by the bandit Snake?",
-    answers: ["Red Rooster", "King Cobra", "Canyonero", "Lil' Bandit"],
-    corectAnswer: "Lil' Bandit"
+    answers: {
+         a: "Red Rooster", 
+         b: "King Cobra", 
+         c: "Canyonero", 
+         d: "Lil' Bandit"
+    },
+    correctAnswer: "d"
     },
     {
     question: "What job does Krusty the Clowns dad do?",
-    answers: ["Carpenter", "Rabbi", "Organ shop owner", "Car salesman"],
-    corectAnswer: "Rabbi"
+    answers: { 
+        a: "Carpenter", 
+        b: "Rabbi", 
+        c: "Organ shop owner", 
+        d: "Car salesman"
+    },
+    correctAnswer: "b"
     },
     {
     question: "Who is the head of the Springfield Historical Society?",
-    answers: ["Hollis Hurlbut", "Colin Chowder", "Professor Frink", "Chester Springfield"],
-    corectAnswer: "Hollis Hurlbut"
+    answers: { 
+        a: "Hollis Hurlbut", 
+        b: "Colin Chowder", 
+        c: "Professor Frink", 
+        d: "Chester Springfield"
+    },
+    correctAnswer: "a"
     },
     {
     question: "What was the brand of TV Homer had when he was a child?",
-    answers: ["The Panaphonic", "Carnivale", "The Radiation King", "Magnetbox"],
-    corectAnswer: "The Radiation King"
+    answers: { 
+        a: "The Panaphonic", 
+        b: "Carnivale", 
+        c: "The Radiation King", 
+        d: "Magnetbox"
+    },
+    correctAnswer: "c"
     },
     {
-    question: "What is the name of the doll that Lisa creates as an alternative to Malibu Stacy?",
-    answers: ["Sally Slippers", "Aruba Alice", "Margie", "Lisa Lionheart"],
-    corectAnswer: "Lisa Lionheart"
+    question: "What is the name of the therapist Marge sees to help with her fear of flying?",
+    answers: { 
+        a: "Lowenstein", 
+        b: "Bancroft", 
+        c: "Zweig", 
+        d: "Lionheart"
+    },
+    correctAnswer: "c"
     },
     {
     question: "What job did Ned Flanders have before he owned the Leftorium?",
-    answers: ["Gardener", "Barber", "Pharmaceutical Representative", "Church organist"],
-    corectAnswer: "Pharmaceutical Representative"
+    answers: { 
+        a: "Gardener", 
+        b: "Barber", 
+        c: "Pharmaceutical Representative", 
+        d: "Church organist"
+    },
+    correctAnswer: "c"
     },
     {
     question: "How did Poochie die?",
-    answers: ["He accidently ate chocolate", "Itchy and Scratchy disembowled him", " He was ran over by a steamroller", "He died on the way back to his home planet"],
-    corectAnswer: "He died on the way back to his home planet"
+    answers: { 
+        a: "He accidently ate chocolate", 
+        b: "Itchy and Scratchy disembowled him", 
+        c: " He was ran over by a steamroller", 
+        d: "He died on the way back to his home planet"
+    },
+    correctAnswer: "d"
     },
     {
     question: "What was the name of the internet company that Homer set up?",
-    answers: ["Compu-Global-Hyper-Mega-Net", "Homer's Interwebs Service", "Simpson's Slimline Internet Services", "Micro-Worldwide-Super-Massive-Web"],
-    corectAnswer: "Compu-Global-Hyper-Mega-Net"
+    answers: { 
+        a: "Compu-Global-Hyper-Mega-Net", 
+        b: "Homer's Interwebs Service", 
+        c: "Simpson's Slimline Internet Services", 
+        d: "Micro-Worldwide-Super-Massive-Web"
+    },
+    correctAnswer: "a"
     },
     {
     question: "What is the name of the town that the Simpsons move to when Homer gets a new job at the Globex Corporation?",
-    answers: ["Frigid Falls", "Swartzwelder County", "Cypress Creek", "Springshire"],
-    corectAnswer: "Cypress Creek"
+    answers: { 
+        a: "Frigid Falls", 
+        b: "Swartzwelder County", 
+        c: "Cypress Creek", 
+        d:"Springshire"
+    },
+    correctAnswer: "c"
     }
 ];
