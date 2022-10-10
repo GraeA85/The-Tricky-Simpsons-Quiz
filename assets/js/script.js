@@ -26,7 +26,7 @@ function resetOptionStyle() {
     }
 }
 
-function showNextQuestion() {
+function nextQuestion() {
 
     if (questionIndex < quizQuestions.length - 1) {
         questionIndex = questionIndex + 1;
@@ -70,7 +70,7 @@ function onOptionClick(event) {
     const selectedAnswer = eventTarget.innerText;
     if (selectedAnswer === quizQuestions[questionIndex].correctAnswer) {
         incrementCorrectAnswer();
-        eventTarget.style.backgroundColor = "#49ff15";
+        eventTarget.style.backgroundColor = "green";
         eventTarget.style.color = "black";
     } else {
         incrementWrongAnswer();
@@ -83,8 +83,8 @@ function initEventListeners() {
         answer.onclick = onOptionClick;
     });
 
-    next.addEventListener('click', showNextQuestion);
-    addEventListener('keypress', showNextQuestion);
+    next.addEventListener('click', nextQuestion);
+    addEventListener('keypress', nextQuestion);
 }
 
 function beginGame() {
