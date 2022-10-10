@@ -227,6 +227,7 @@ h2 {
     border-radius:5px;
     float:left;
     text-align: center;
+    cursor: pointer;
 }
 
 .btn img 
@@ -239,6 +240,7 @@ h2 {
 	display:inline-block;
     width: 120px;
     vertical-align:middle;
+    cursor: pointer;
 }
 
 
@@ -249,13 +251,23 @@ h2 {
    align-content: center;
    }
    
- li {
+ .answer-box {
     border-style: solid;
     width: 70%;
     margin-bottom: 20px;
     text-align: center;
     cursor: pointer;
  }
+
+#score-table {
+    font-size: 30px;
+    display: inline;
+}
+
+#incorrect_answers, #correct_answers {
+    font-size: 50px;
+}
+
 
 /* Custom CSS for Footer - Boostrap template and styled with Custom CSS*/
 
