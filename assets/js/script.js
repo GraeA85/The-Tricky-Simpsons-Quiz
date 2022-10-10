@@ -16,8 +16,8 @@ quizQuestions.forEach( (currentQuestion, questionNumber) => {
 
     answers.push(
         `<label>
-        <input type="radio" name="question${questionNumber}" value = ${letter}> : ${currentQuestion.answers[letter]}
-        </label>`
+        <span><input type="radio" name="question${questionNumber}" value = ${letter}> ${currentQuestion.answers[letter]}
+        </label></span>`
     );
    }
 
@@ -41,7 +41,7 @@ const answerContainers = quizContainer.querySelectorAll('.answers');
 // Keep users score
 let numCorrect = 0;
 
-// loop through each question to pick the current selected answer (radio buttons)
+// loop through each question to pick the current selected answer
 quizQuestions.forEach( (currentQuestion, questionNumber) => {
 
     const answerContainer = answerContainers[questionNumber];

@@ -70,7 +70,7 @@ const quizQuestions = [
     correctAnswer: "d"
     },
     {
-    question: "What job does Krusty the Clowns dad do?",
+    question: "What job does Krusty the Clowns dad have?",
     answers: { 
         a: "Carpenter", 
         b: "Rabbi", 
@@ -140,12 +140,12 @@ const quizQuestions = [
     correctAnswer: "a"
     },
     {
-    question: "What is the name of the town that the Simpsons move to when Homer gets a new job at the Globex Corporation?",
+    question: "Bart has a middle name beginning with J, what is it?",
     answers: { 
-        a: "Frigid Falls", 
-        b: "Swartzwelder County", 
-        c: "Cypress Creek", 
-        d:"Springshire"
+        a: "Jay", 
+        b: "Juju", 
+        c: "Jojo", 
+        d:"Jebediah"
     },
     correctAnswer: "c"
     }
