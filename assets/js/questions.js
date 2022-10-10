@@ -1,152 +1,77 @@
 const quizQuestions = [
     {
     question: "What is Comic Book Guy's real name?",
-    answers: {
-        a: "Clark Thompson", 
-        b: "Herschel Krustowsky", 
-        c: "Jeffrey Albertson", 
-        d: "Tom McNeil"
-    },
-    correctAnswer: "c"
+    answers: ["Clark Thompson", "Herschel Krustowsky", "Jeffrey Albertson", "Tom McNeil"],
+    correctAnswer: "Jeffrey Albertson"
     },
     {
-    question:"What was the name of Grampa's military unit in World War 2?",
-    answers: {
-        a: "The Flying Hellfish", 
-        b: "The Savage Shellfish", 
-        c: "The Tussle Tanks", 
-        d: "The Subpar Subbers"
-    },
-    correctAnswer: "a",
+    question: "What was the name of Grampa's military unit in World War 2?",
+    answers: ["The Flying Hellfish", "The Savage Shellfish", "The Tussle Tanks", "The Subpar Subbers"],
+    correctAnswer: "The Flying Hellfish"
     },
     {
-    question: "What is the password Mr Burns uses to enter his panic room? (hint, it's also his place of birth!)",
-    answers: {
-        a: "Nantucket", 
-        b: "Shelbyville", 
-        c: "Pangea", 
-        d: "Ogdenville"
-    },
-    correctAnswer: "c",
+    question: "What is the password Mr Burns uses to enter his panic room?",
+    answers: ["Nantucket", "Shelbyville", "Pangea", "Ogdenville"],
+    correctAnswer: "Pangea"
     },
     {
     question: "What is the Crazy Cat Lady's real name?",
-    answers: { 
-        a: "Susan Diamond", 
-        b: "Francine Cauldron", 
-        c: "Gertrude Fronch", 
-        d: "Eleanor Abernathy"
-    },
-    correctAnswer: "d"
+    answers: ["Susan Diamond", "Francine Cauldron", "Gertrude Fronch", "Eleanor Abernathy"],
+    correctAnswer: "Eleanor Abernathy"
     },
     {
     question: "What is Groundskeeper Willies Surname?",
-    answers: { 
-        a: "McArthur", 
-        b: "MacDonald", 
-        c: "McKenzie", 
-        d: "MacDougal"
-    },
-    correctAnswer: "d",
+    answers: ["McArthur", "MacDonald", "McKenzie", "MacDougal"],
+    correctAnswer: "MacDougal"
     },
     {
     question: "What is the name of the University Moe attended?",
-    answers: { 
-        a: "Drinkston University", 
-        b: "Swigmore University", 
-        c: "Chugsville University", 
-        d: "He didn't attend University"
-    },
-    correctAnswer: "b",
+    answers: ["Drinkston University", "Swigmore University", "Chugsville University", "He didn't attend University"],
+    correctAnswer: "Swigmore University"
     },
     {
     question: "What is the pet name of the car driven by the bandit Snake?",
-    answers: {
-         a: "Red Rooster", 
-         b: "King Cobra", 
-         c: "Canyonero", 
-         d: "Lil' Bandit"
-    },
-    correctAnswer: "d"
+    answers: ["Red Rooster", "King Cobra", "Canyonero", "Lil' Bandit"],
+    correctAnswer: "Lil' Bandit"
     },
     {
     question: "What job does Krusty the Clowns dad have?",
-    answers: { 
-        a: "Carpenter", 
-        b: "Rabbi", 
-        c: "Organ shop owner", 
-        d: "Car salesman"
-    },
-    correctAnswer: "b"
+    answers: ["Carpenter", "Rabbi", "Organ shop owner", "Car salesman"],
+    correctAnswer: "Rabbi"
     },
     {
     question: "Who is the head of the Springfield Historical Society?",
-    answers: { 
-        a: "Hollis Hurlbut", 
-        b: "Colin Chowder", 
-        c: "Professor Frink", 
-        d: "Chester Springfield"
-    },
-    correctAnswer: "a"
+    answers: ["Hollis Hurlbut", "Colin Chowder", "Professor Frink", "Chester Springfield"],
+    correctAnswer: "Hollis Hurlbut"
     },
     {
     question: "What was the brand of TV Homer had when he was a child?",
-    answers: { 
-        a: "The Panaphonic", 
-        b: "Carnivale", 
-        c: "The Radiation King", 
-        d: "Magnetbox"
-    },
-    correctAnswer: "c"
+    answers: ["The Panaphonic", "Carnivale", "The Radiation King", "Magnetbox"],
+    correctAnswer: "The Radiation King"
     },
     {
     question: "What is the name of the therapist Marge sees to help with her fear of flying?",
-    answers: { 
-        a: "Lowenstein", 
-        b: "Bancroft", 
-        c: "Zweig", 
-        d: "Lionheart"
-    },
-    correctAnswer: "c"
+    answers: ["Lowenstein", "Bancroft", "Zweig", "Lionheart"],
+    correctAnswer: "Zweig"
     },
     {
     question: "What job did Ned Flanders have before he owned the Leftorium?",
-    answers: { 
-        a: "Gardener", 
-        b: "Barber", 
-        c: "Pharmaceutical Representative", 
-        d: "Church organist"
-    },
-    correctAnswer: "c"
+    answers: ["Gardener", "Barber", "Pharmaceutical Representative", "Church organist"],
+    correctAnswer: "Pharmaceutical Representative"
     },
     {
     question: "How did Poochie die?",
-    answers: { 
-        a: "He accidently ate chocolate", 
-        b: "Itchy and Scratchy disembowled him", 
-        c: " He was ran over by a steamroller", 
-        d: "He died on the way back to his home planet"
-    },
-    correctAnswer: "d"
+    answers: ["He accidently ate chocolate", "Itchy and Scratchy disembowled him", " He was ran over by a steamroller", "He died on the way back to his home planet"],
+    correctAnswer: "He died on the way back to his home planet"
     },
     {
     question: "What was the name of the internet company that Homer set up?",
-    answers: { 
-        a: "Compu-Global-Hyper-Mega-Net", 
-        b: "Homer's Interwebs Service", 
-        c: "Simpson's Slimline Internet Services", 
-        d: "Micro-Worldwide-Super-Massive-Web"
-    },
-    correctAnswer: "a"
+    answers: ["Compu-Global-Hyper-Mega-Net", "Homer's Interwebs Service", "Simpson's Slimline Internet Services", "Micro-Worldwide-Super-Massive-Web"],
+    correctAnswer: "Compu-Global-Hyper-Mega-Net"
     },
     {
     question: "Bart has a middle name beginning with J, what is it?",
-    answers: { 
-        a: "Jay", 
-        b: "Juju", 
-        c: "Jojo", 
-        d:"Jebediah"
-    },
-    correctAnswer: "c"
+    answers: ["Jay", "Juju", "Jojo", "Jebediah"],
+    correctAnswer: "Jojo"
     }
 ];

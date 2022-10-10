@@ -13,24 +13,31 @@
 
 <body class="game">
     
-    <div class="quiz-container">
-    <div id="quizgame"></div>
+    <div id="game-area">
+        <div class="question-container">
+            <h2><span id="main-questions">questions</span></h2>
+            <div id="answers">
+                <ul>
+                    <li class="answer-box" id="a">answer A</li>
+                    <li class="answer-box" id="b">answer B</li>
+                    <li class="answer-box" id="c">answer C</li>
+                    <li class="answer-box" id="d">answer D</li>
+                </ul>
+            </div>
+            <button class="btn" id="next-question" button type="button">               
+                <div id="btn_container"><img  src="./assets/images/donut2.png" width="30" height="30"/></div>
+                <span>Next</span>
+             </button>
+             </div>
+        
+            <div id="score-table">
+            <p id="incorrect_answer_table">Incorrect answers:<span id="incorrect_answers">0</span></p>
+            <p id="right_answer_table">Correct answers:<span id="correct_answers">0</span></p>
+            </div>
+        </div>
     </div>
-    <div id="buttons">
-    <button class="btn" id="previous">               
-        <div id="btn_container"><img  src="./assets/images/donut2.png" width="30" height="30"/></div>
-        <span>Previous</span>
-     </button>
-     <button class="btn" id="next">               
-        <div id="btn_container"><img  src="./assets/images/donut2.png" width="30" height="30"/></div>
-        <span>Next</span>
-     </button>
-     <button class="btn" id="submit">               
-        <div id="btn_container"><img  src="./assets/images/donut2.png" width="30" height="30"/></div>
-        <span>Submit</span>
-     </button>
-    </div>
-     <div id="results"></div>
+
+    <a id='return-btn' href="index.html">Quit Game</a>
 
     <script src="/assets/js/questions.js"></script>
     <script src="/assets/js/script.js"></script>

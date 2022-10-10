@@ -125,18 +125,12 @@
     box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 50%);
 }
 
-.play,
-.resultsBtn {
+.play {
     background-color:var(--dark);
     border: 2px var(--white);
 }
 
-.resultsBtn {
-    margin: 15px;
-}
-
-.play:hover,
-.resultsBtn:hover {
+.play:hover {
     background-color: var(--white);
     border-color: var(--white);
     color:var(--dark)
@@ -170,12 +164,12 @@ a:hover {
     background-color: aqua;
 }
 
-#submit, #previous, #next
+#next-question
 {
 
     width: 190px;
     height: 50px;
-	margin-bottom:20px;
+	margin-bottom:25px;
     padding: 0 10px;
     text-align: center;
     font-size: 30px;
@@ -183,8 +177,43 @@ a:hover {
     background: #70D1FE;
     font-family: 'Simpsonfont';
     border-radius: 5%;
+    margin-left: 450px;
+    
     
 }
+
+h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.question-container {
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .question-container {
+      width: 100%;
+      }
+
+    .game {
+        background-image: url("../images/homercroppedss.jpg");
+        background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    h2 {
+        margin-right: 50px;
+        text-align: center;
+    }
+    #next-question {
+        margin-left: 60px;
+    }
+  }
 
 #donut1:hover {
     -webkit-transform: rotate(360deg);
@@ -193,7 +222,7 @@ a:hover {
 
 #btn_container
 {
-    width:40px;
+    width: 40px;
     height:40px; 
     border-radius:5px;
     float:left;
@@ -205,82 +234,29 @@ a:hover {
  	margin-top: 10px;
 }
 
-
 .btn span
 {
 	display:inline-block;
     width: 120px;
     vertical-align:middle;
 }
-/* CSS to style the question slides */
 
-.slide{
-    
-    top: 180px;
-    width: inherit;
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.5s;
-    align-content: center;
-  }
-  .active-slide{
-    opacity: 1;
-    z-index: 2;
-    
-}
 
-  .quiz-container{
-    position: relative;
-    height: 200px;
-    margin-top: 100px;
-    max-width: 40%;
-
-    width: inherit;
-    aspect-ratio: 100 / 29;
-
-  }
-
-  .question {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    text-align: center;
-    margin-left: 45px;
-    
-  }
-
-  .answers {
-    color:#70D1FE;
-    padding-top: 30px;
-    display: grid;
-    font-size: 1.5em;
-    
-  }
-
-  #buttons {
-    margin-top: 450px;
-    margin-left: 380px;
-    
-  }
-
-  .answers label {
-    margin-bottom: 15px;
-    border-style: ridge;
-    text-align: center;
-    border-color: black;
-    }
-
-    .answers:checked {
-        background-color: green;
-    }
-
- /* CSS to hide radio buttons from answers while still allowing keyboard navigation for accessibility */
+ /*Hide bullet points of list */
    
-   .answers input {
-    position: fixed;
-    opacity: 0;
-    pointer-events: none;
+   ul {
+   list-style: none;
+   align-content: center;
    }
    
+ li {
+    border-style: solid;
+    width: 70%;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+ }
+
 /* Custom CSS for Footer - Boostrap template and styled with Custom CSS*/
 
 .footer-list {
