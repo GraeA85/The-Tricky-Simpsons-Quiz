@@ -30,7 +30,7 @@ const quizQuestions = [
     correctAnswer: "Swigmore University"
     },
     {
-    question: "What is the pet name of the car driven by the bandit Snake?",
+    question: "What is the pet name of the car driven by Snake?",
     answers: ["Red Rooster", "King Cobra", "Canyonero", "Lil' Bandit"],
     correctAnswer: "Lil' Bandit"
     },

@@ -170,6 +170,7 @@ a:hover {
     width: 190px;
     height: 50px;
 	margin-bottom:25px;
+    margin-left: 28%;
     padding: 0 10px;
     text-align: center;
     font-size: 30px;
@@ -177,20 +178,39 @@ a:hover {
     background: #70D1FE;
     font-family: 'Simpsonfont';
     border-radius: 5%;
-    margin-left: 450px;
-       
-}
+    }
 
 h2 {
     
-    text-align: center;
+   text-align: center;
+    
 }
 
 .question-container {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    
+     
+}
+
+@media only screen and (min-width: 770px) {
+    .question-container {
+        width: 60%;
+        margin-top: 100px;
+    }
+    h2 {
+        font-size: 2.8em;
+        }
+    .answer-box {
+        margin-bottom: 40px !important;
+    }
+    footer {
+        display: none;
+    }
+     h2 {
+        width: 806.22px;
+        margin-left: 30px;
+     }
 }
 
 @media only screen and (max-width: 768px) {
@@ -216,12 +236,19 @@ h2 {
     #score-table, #correct_answers, #incorrect_answers {
         font-size: small !important;
     }
-  }
+    
+    #gamefooter {
+        background: none;
+        opacity: 1;
+        
+    }
 
-#donut1:hover {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+    #return-btn1 {
+        display: none;
+    }
+}
+
+/* end of mobile media query */
 
 #btn_container
 {
@@ -260,6 +287,8 @@ h2 {
     margin-bottom: 20px;
     text-align: center;
     cursor: pointer;
+    border-color:#70D1FE;
+    
  }
 
 #score-table {

@@ -1,3 +1,4 @@
+//variables to show questions and on html document - questions stored in variable within questions.js file //
 let answerA = document.getElementById('a');
 let answerB = document.getElementById('b');
 let answerC = document.getElementById('c');
@@ -7,6 +8,8 @@ let questionIndex = 0;
 const answers = document.querySelectorAll('.answer-box');
 let next = document.getElementById('next-question');
 
+
+// gets question from variable in questions.js //
 function showQuestion() {
     mainQuestions.innerHTML = quizQuestions[questionIndex].question;
     answerA.innerHTML = quizQuestions[questionIndex].answers[0];
@@ -16,7 +19,7 @@ function showQuestion() {
     resetOptionStyle();
 }
 
-// function to reset question to normal state after user gives answer
+// reset answers to normal state on new question //
 function resetOptionStyle() {
     let answerBoxes = document.getElementsByClassName('answer-box');
     for (var i=0; i < answerBoxes.length; i++) {
@@ -25,7 +28,7 @@ function resetOptionStyle() {
         answerBoxes[i].style.color = "black";
     }
 }
-
+// takes user to next question, if available //
 function nextQuestion() {
 
     if (questionIndex < quizQuestions.length - 1) {
@@ -33,7 +36,7 @@ function nextQuestion() {
         showQuestion();
 
     } else {
-        // Game complete, woohoo!
+        // Game complete, woohoo! //
         mainQuestions.innerHTML = "<h1 id='game-over'>Game Complete!</h1>";
         document.getElementById('answers').style.display = 'none';
         next.style.display = 'none';
@@ -46,24 +49,24 @@ function nextQuestion() {
 function reloadGame() {
     window.location.reload();
 }
-
+// adds a score to correct score //
 function incrementCorrectAnswer () {
     let addScoreCount = parseInt(document.getElementById("correct_answers").innerText);
     document.getElementById("correct_answers").innerText = addScoreCount + 1;
 }
-
+// adds a score to the incorrect score //
 function incrementWrongAnswer () {
     let wrongAnswerCount = parseInt(document.getElementById("incorrect_answers").innerText);
     document.getElementById("incorrect_answers").innerText = wrongAnswerCount + 1;
 }
-
+// prevents the selection of a second answer //
 function disableOptions() {
     let answerBoxes = document.getElementsByClassName('answer-box');
     for (var i=0; i < answerBoxes.length; i++) {
         answerBoxes[i].style.pointerEvents = "none";
     }
 }
-
+// scoring system - code from Code Institute module //
 function onOptionClick(event) {
     disableOptions();
     const eventTarget = event.target;
