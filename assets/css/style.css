@@ -178,19 +178,19 @@ a:hover {
     font-family: 'Simpsonfont';
     border-radius: 5%;
     margin-left: 450px;
-    
-    
+       
 }
 
 h2 {
-    margin-top: 100px;
+    
     text-align: center;
 }
 
 .question-container {
-    padding: 20px;
-    border-radius: 10px;
-    width: 60%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -212,6 +212,9 @@ h2 {
     }
     #next-question {
         margin-left: 60px;
+    }
+    #score-table, #correct_answers, #incorrect_answers {
+        font-size: small !important;
     }
   }
 
@@ -261,11 +264,14 @@ h2 {
 
 #score-table {
     font-size: 30px;
-    display: inline;
+    display: flex;
+    
+
 }
 
 #incorrect_answers, #correct_answers {
     font-size: 50px;
+    padding-inline: 25px;
 }
 
 
