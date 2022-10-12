@@ -1,8 +1,8 @@
 //variables to show questions and on html document - questions stored in variable within questions.js file //
-let answerA = document.getElementById('a');
-let answerB = document.getElementById('b');
-let answerC = document.getElementById('c');
-let answerD = document.getElementById('d');
+let answerA = document.getElementById("a");
+let answerB = document.getElementById("b");
+let answerC = document.getElementById("c");
+let answerD = document.getElementById("d");
 let mainQuestions = document.getElementById('main-questions');
 let questionIndex = 0;
 const answers = document.querySelectorAll('.answer-box');
@@ -28,7 +28,7 @@ function resetOptionStyle() {
         answerBoxes[i].style.color = "black";
     }
 }
-// takes user to next question, if available //
+// takes user to next question, unless at end then game complete is shown//
 function nextQuestion() {
 
     if (questionIndex < quizQuestions.length - 1) {
@@ -37,7 +37,7 @@ function nextQuestion() {
 
     } else {
         // Game complete, woohoo! //
-        mainQuestions.innerHTML = "<h1 id='game-over'>Game Complete!</h1>";
+        mainQuestions.innerHTML = "<h1 id='game_end'>Game Complete!</h1>";
         document.getElementById('answers').style.display = 'none';
         next.style.display = 'none';
         addEventListener('keypress', reloadGame);

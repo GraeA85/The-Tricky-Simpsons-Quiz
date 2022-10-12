@@ -65,9 +65,9 @@ const quizQuestions = [
     correctAnswer: "He died on the way back to his home planet"
     },
     {
-    question: "What was the name of the internet company that Homer set up?",
-    answers: ["Compu-Global-Hyper-Mega-Net", "Homer's Interwebs Service", "Simpson's Slimline Internet Services", "Micro-Worldwide-Super-Massive-Web"],
-    correctAnswer: "Compu-Global-Hyper-Mega-Net"
+    question: "Who destroys Homer's Internet company?",
+    answers: ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Bumblebee Man"],
+    correctAnswer: "Bill Gates"
     },
     {
     question: "Bart has a middle name beginning with J, what is it?",
