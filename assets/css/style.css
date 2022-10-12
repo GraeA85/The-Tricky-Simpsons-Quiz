@@ -94,10 +94,7 @@
     margin: -.5rem -.5rem -.5rem auto;
     }
 
-.play,
-.submit,
-.reset,
-.help {
+.play, .help {
     font-family: 'Simpsonfont', serif;
     font-size: 1.5em;
 }
@@ -126,12 +123,13 @@
 }
 
 .play {
-    background-color:var(--dark);
+    background-color:white !important;
     border: 2px var(--white);
+    color: black !important;
 }
 
 .play:hover {
-    background-color: var(--white);
+    background-color: grey !important;
     border-color: var(--white);
     color:var(--dark)
 }
@@ -143,7 +141,7 @@ a:hover {
 }
 
 .btn-light.help:hover {
-    background-color: black;
+    background-color: grey;
     border: 1px solid black;
     color: var(--white);
 }
