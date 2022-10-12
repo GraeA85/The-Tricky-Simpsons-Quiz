@@ -9,7 +9,7 @@ const answers = document.querySelectorAll('.answer-box');
 let next = document.getElementById('next-question');
 
 
-// gets question from variable in questions.js and shows on screen //
+// gets questions stored in variable in questions.js and shows on screen //
 function showQuestion() {
     mainQuestions.innerHTML = quizQuestions[questionIndex].question;
     answerA.innerHTML = quizQuestions[questionIndex].answers[0];
@@ -19,13 +19,14 @@ function showQuestion() {
     resetOptionStyle();
 }
 
-// reset answers to normal state on new question - some code based on quiz game building from https://gamedevacademy.org/javascript-quiz-tutorial/ //
+// reset answer boxes to normal state on new question - code based on quiz game building from https://gamedevacademy.org/javascript-quiz-tutorial/ and advice from stack overflow //
 function resetOptionStyle() {
     let answerBoxes = document.getElementsByClassName('answer-box');
     for (var i=0; i < answerBoxes.length; i++) {
-        answerBoxes[i].style.backgroundColor = "transparent";
-        answerBoxes[i].style.pointerEvents = "auto";
+        answerBoxes[i].style.backgroundColor = "#70D1FE";
         answerBoxes[i].style.color = "black";
+        answerBoxes[i].style.pointerEvents = "auto";
+        
     }
 }
 // takes user to next question, unless at end then game complete is shown//
@@ -49,7 +50,7 @@ function nextQuestion() {
 function reloadGame() {
     window.location.reload();
 }
-// adds a score to correct score //
+// adds a score to correct anwers score - scoring system based on code institute modules //
 function incrementCorrectAnswer () {
     let addScoreCount = parseInt(document.getElementById("correct_answers").innerText);
     document.getElementById("correct_answers").innerText = addScoreCount + 1;
@@ -80,7 +81,7 @@ function onOptionClick(event) {
         eventTarget.style.backgroundColor = "red";
     }
 }
-
+// event listener for answer selection //
 function initEventListeners() {
     answers.forEach(function (answer) {
         answer.onclick = onOptionClick;

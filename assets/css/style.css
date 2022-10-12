@@ -218,6 +218,7 @@ h2 {
 
      .answer-box:hover {
         background-image: url("../images/clouds.jpg");
+        
     }
 }
 
@@ -335,7 +336,7 @@ h2 {
     margin-bottom: 20px;
     text-align: center;
     cursor: pointer;
-    border-color:#70D1FE;
+    border-color:black;
     
  }
 
