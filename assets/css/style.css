@@ -1,11 +1,11 @@
-  .game {
+.game {
     background: url("/assets/images/homer_cropped.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Simpsonfont';
-    }
+}
 
 .home {
     background: url("../images/Simpsons_House.jpg");
@@ -14,8 +14,9 @@
     color: #fcd424;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+
 }
+
 /*CSS to import Simpsons font*/
 @font-face {
     font-family: Simpsonfont;
@@ -32,18 +33,19 @@
 .navbar-brand {
     padding-left: 0.5em;
 }
+
 /* CSS to add interactive element to navbar logo (donut) */
 #donut {
-    
-        border-radius: 50%;
-        -webkit-transition: -webkit-transform 0.8s ease-in-out;
-                transition: transform 0.8s ease-in-out;
-      }
-      
-      #donut:hover {
-        -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-      }
+
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+}
+
+#donut:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
 
 
 .nav-link:hover {
@@ -57,7 +59,7 @@
     font-family: 'Simpsonfont', serif;
     font-weight: 800;
     text-align: center;
-    color:#fcd424;
+    color: #fcd424;
 }
 
 .modal-content {
@@ -77,7 +79,7 @@
     background-attachment: fixed;
     padding: 0.5rem 0.5rem;
     background-color: #70D1FE;
-    }
+}
 
 .modal-body {
     background: url("../images/clouds.jpg");
@@ -88,20 +90,21 @@
     padding: 0.5rem 0.5rem;
     background-color: #70D1FE;
     color: black;
-    }
+}
 
 .modal-header .btn-close {
     padding: 0.5rem 1rem;
     margin: -.5rem -.5rem -.5rem auto;
-    }
+}
 
-.play, .help {
+.play,
+.help {
     font-family: 'Simpsonfont', serif;
     font-size: 1.5em;
 }
 
 .submit:hover {
-    color:var(--dark);
+    color: var(--dark);
     background-color: var(--white);
     border: 2px solid #6c757d;
 }
@@ -118,13 +121,13 @@
 .btn-check:focus+.btn-light,
 .btn-light:focus {
     color: var(--white);
-    background-color:var(--dark);
-    border-color:var(--dark);
+    background-color: var(--dark);
+    border-color: var(--dark);
     box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 50%);
 }
 
 .play {
-    background-color:white !important;
+    background-color: white !important;
     border: 2px var(--white);
     color: black !important;
 }
@@ -132,7 +135,7 @@
 .play:hover {
     background-color: grey !important;
     border-color: var(--white);
-    color:var(--dark)
+    color: var(--dark)
 }
 
 a,
@@ -162,14 +165,14 @@ a:hover {
     padding: 0.5rem 0.5rem;
     background-color: aqua;
 }
+
 /* end of modal CSS */
 
-#next-question
-{
+#next-question {
 
     width: 190px;
     height: 50px;
-	margin-bottom:25px;
+    margin-bottom: 25px;
     margin-left: 28%;
     padding: 0 10px;
     text-align: center;
@@ -178,19 +181,19 @@ a:hover {
     background: #70D1FE;
     font-family: 'Simpsonfont';
     border-radius: 5%;
-    }
+}
 
 h2 {
-    
-   text-align: center;
-    
+
+    text-align: center;
+
 }
 
 .question-container {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-        
+
 }
 
 #return-btn1 {
@@ -203,22 +206,24 @@ h2 {
     .question-container {
         width: 60%;
         margin-top: 100px;
-        }
+    }
+
     h2 {
         font-size: 2.8em;
         width: 806.22px;
-        }
+    }
+
     .answer-box {
         margin-bottom: 40px !important;
     }
-    
+
     #score-table {
         margin-left: 160px;
-     }
+    }
 
-     .answer-box:hover {
+    .answer-box:hover {
         background-image: url("../images/clouds.jpg");
-        
+
     }
 }
 
@@ -229,29 +234,34 @@ h2 {
         width: 980px;
         margin-left: 60px;
     }
+
     .question-container {
         width: 60%;
         margin-top: 100px;
     }
+
     h2 {
         font-size: 2.8em;
-        }
+    }
+
     .answer-box {
         margin-bottom: 40px !important;
     }
-  
-     h2 {
+
+    h2 {
         width: 1100px;
         margin-left: 10px;
-     }
-     #score-table {
-        margin-left: 200px;
-     }
-     #return-btn1 {
-        text-align: center !important;
-     }
+    }
 
-     .answer-box:hover {
+    #score-table {
+        margin-left: 200px;
+    }
+
+    #return-btn1 {
+        text-align: center !important;
+    }
+
+    .answer-box:hover {
         background-image: url("../images/clouds.jpg");
     }
 }
@@ -260,36 +270,42 @@ h2 {
 
 @media only screen and (max-width: 768px) {
     .question-container {
-      width: 100%;
-      }
+        width: 100%;
+    }
 
     .game {
         background-image: url("../images/homercroppedss.jpg");
         background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     h2 {
         margin-right: 50px;
         text-align: center;
     }
+
     #next-question {
         margin-left: 60px;
     }
-    #score-table, #correct_answers, #incorrect_answers {
+
+    #score-table,
+    #correct_answers,
+    #incorrect_answers {
         font-size: small !important;
     }
-  
+
 }
+
 /* Media query to target smaller mobile screens */
 
 @media only screen and (max-width: 375px) {
     #next-question {
         margin-bottom: 0px;
-         
-}
+
+    }
+
     h2 {
         margin-top: 0px;
         margin-bottom: 10px;
@@ -299,53 +315,51 @@ h2 {
 
 /* end of mobile media query */
 
-#btn_container
-{
+#btn_container {
     width: 40px;
-    height:40px; 
-    border-radius:5px;
-    float:left;
+    height: 40px;
+    border-radius: 5px;
+    float: left;
     text-align: center;
     cursor: pointer;
 }
 
-.btn img 
-{  
- 	margin-top: 10px;
+.btn img {
+    margin-top: 10px;
 }
 
-.btn span
-{
-	display:inline-block;
+.btn span {
+    display: inline-block;
     width: 120px;
-    vertical-align:middle;
+    vertical-align: middle;
     cursor: pointer;
 }
 
 
- /*Hide bullet points of list */
-   
-   ul {
-   list-style: none;
-   align-content: center;
-   }
-   
- .answer-box {
+/*Hide bullet points of list */
+
+ul {
+    list-style: none;
+    align-content: center;
+}
+
+.answer-box {
     border-style: solid;
     width: 70%;
     margin-bottom: 20px;
     text-align: center;
     cursor: pointer;
-    border-color:black;
-    
- }
+    border-color: black;
+
+}
 
 #score-table {
     font-size: 30px;
     display: flex;
-    }
+}
 
-#incorrect_answers, #correct_answers {
+#incorrect_answers,
+#correct_answers {
     font-size: 50px;
     padding-inline: 25px;
 
@@ -360,33 +374,34 @@ h2 {
     /* Default */
     justify-content: space-evenly;
     width: 100%;
-  
+
     margin: 0;
     padding: 0;
-  }
-  
-  .footer-item {
+}
+
+.footer-item {
     display: block;
     flex: 0 1 auto;
     /* Default */
     list-style-type: none;
-  }
-  
-  .footer-item {
+}
+
+.footer-item {
     color: #fcd424;
-  }
-  
-  .footer-item i {
+}
+
+.footer-item i {
     color: #fcd424;
-  }
-  
-  footer {
+}
+
+footer {
     background-color: rgb(15, 146, 15);
-    opacity: 50%;;
-  }
-  
-  .btn {
+    opacity: 50%;
+    ;
+}
+
+.btn {
     color: #fcd424;
-  }
-  
-  /* End of Footer CSS */
+}
+
+/* End of Footer CSS */
