@@ -198,6 +198,11 @@ h2 {
 
 #return-btn1 {
     text-decoration: underline !important;
+   
+}
+
+#score-table {
+    margin-top: 25px;
 }
 
 /* media query for majority of desktop sizes */
@@ -217,14 +222,15 @@ h2 {
         margin-bottom: 40px !important;
     }
 
-    #score-table {
-        margin-left: 160px;
-    }
-
     .answer-box:hover {
         background-image: url("../images/clouds.jpg");
 
     }
+    #score-table {
+        margin-left: 150px;
+        
+    }
+
 }
 
 /* media query for ultrawide screens */
@@ -253,16 +259,17 @@ h2 {
         margin-left: 10px;
     }
 
-    #score-table {
-        margin-left: 200px;
-    }
-
-    #return-btn1 {
+     #return-btn1 {
         text-align: center !important;
     }
 
     .answer-box:hover {
         background-image: url("../images/clouds.jpg");
+    }
+
+    #score-table {
+        margin-left: 200px;
+        
     }
 }
 
@@ -281,7 +288,7 @@ h2 {
         background-attachment: fixed;
     }
 
-    h2 {
+    .question-container h2 {
         margin-right: 50px;
         text-align: center;
     }
@@ -356,6 +363,7 @@ ul {
 #score-table {
     font-size: 30px;
     display: flex;
+    
 }
 
 #incorrect_answers,
