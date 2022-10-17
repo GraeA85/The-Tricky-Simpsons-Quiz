@@ -198,11 +198,11 @@ h2 {
 
 #return-btn1 {
     text-decoration: underline !important;
-   
+      
 }
 
 #score-table {
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 /* media query for majority of desktop sizes */
@@ -303,6 +303,15 @@ h2 {
         font-size: small !important;
     }
 
+    #answers {
+        height: 50% !important;
+        margin-bottom: 5%;
+        }
+
+        #return-btn1 {
+            margin-left: 100px;
+        }
+
 }
 
 /* Media query to target smaller mobile screens */
@@ -318,6 +327,14 @@ h2 {
         margin-bottom: 10px;
     }
 
+    #answers {
+        height: 50% !important;
+        margin-bottom: 5%;
+        
+    }
+    #return-btn1 {
+        margin-left: 100px;
+    }
 }
 
 /* end of mobile media query */
