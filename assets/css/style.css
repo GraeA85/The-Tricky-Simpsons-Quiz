@@ -241,7 +241,7 @@ h2 {
 @media only screen and (min-width: 1961px) {
     h2 {
         width: 980px;
-        margin-left: 60px;
+        
     }
 
     .question-container {
@@ -304,7 +304,7 @@ h2 {
     #score-table,
     #correct_answers,
     #incorrect_answers {
-        font-size: small !important;
+        font-size: medium !important;
     }
 
     #answers {
@@ -325,7 +325,9 @@ h2 {
             justify-content: center;
             
         }
-
+h2 {
+    font-size: larger;
+}
 }
 
 /* Media query to target smaller mobile screens */
