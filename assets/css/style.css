@@ -213,11 +213,11 @@ h2 {
 @media only screen and (min-width: 770px) and (max-width: 1960px) {
     .question-container {
         width: 60%;
-        margin-top: 100px;
+        
     }
 
     h2 {
-        font-size: 2.8em;
+        font-size: 2em;
         width: 806.22px;
     }
 
@@ -229,10 +229,7 @@ h2 {
         background-image: url("../images/clouds.jpg");
 
     }
-    #score-table {
-        margin-left: 150px;
-        
-    }
+    
 
 }
 
@@ -270,10 +267,7 @@ h2 {
         background-image: url("../images/clouds.jpg");
     }
 
-    #score-table {
-        margin-left: 200px;
-        
-    }
+    
 }
 
 /*media query for mobile phones */
@@ -403,7 +397,7 @@ ul {
 }
 
 #score-table {
-    font-size: 30px;
+    font-size: 15px;
     display: flex;
     
 }
