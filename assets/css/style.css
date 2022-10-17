@@ -1,5 +1,5 @@
 .game {
-    background: url("/assets/images/homer_cropped.png");
+    background: url("../images/homer_cropped.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 /*CSS to import Simpsons font*/
 @font-face {
     font-family: Simpsonfont;
-    src: url("/assets/font/Simpsonfont.ttf") format("truetype");
+    src: url("../font/Simpsonfont.ttf") format("truetype");
 }
 
 .nav-link {
