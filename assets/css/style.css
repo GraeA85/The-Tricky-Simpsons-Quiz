@@ -184,6 +184,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color: black;
 }
 
 h2 {
@@ -206,6 +207,14 @@ h2 {
 
 #score-table {
     margin-top: 5px;
+}
+
+#correct_answers {
+    color: green;
+}
+
+#incorrect_answers {
+    color: red;
 }
 
 /* media query for majority of desktop sizes */
@@ -295,13 +304,7 @@ h2 {
         margin-left: 70px;
     }
 
-    #score-table,
-    #correct_answers,
-    #incorrect_answers {
-        font-size: medium !important;
-    }
-
-    #answers {
+        #answers {
         height: 50% !important;
         margin-bottom: 5%;
         }
@@ -326,7 +329,7 @@ h2 {
 
 /* Media query to target smaller mobile screens */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 393px) {
     #next-question {
         margin-bottom: 0px;
         margin-left: 55px;
@@ -356,8 +359,16 @@ h2 {
         justify-content: center;
         
     }
+
+    .game {
+        background-image: url("../images/simpsonsyellow.jpg");
 }
 
+    #correct_score, #incorrect_score {
+        font-size: 25px;
+    }
+
+}
 
 
 /* end of mobile media query */
@@ -404,7 +415,7 @@ ul {
 
 #incorrect_answers,
 #correct_answers {
-    font-size: 50px;
+    font-size: 40px;
     padding-inline: 25px;
 
 }
