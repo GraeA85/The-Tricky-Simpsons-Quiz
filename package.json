@@ -4,9 +4,10 @@
     "jquery": "^3.6.1"
   },
   "devDependencies": {
-    "jest": "^29.2.0"
-  },  "scripts": {
-      "test": "jest"
-    }
+    "jest": "^29.2.0",
+    "jest-environment-jsdom": "^29.2.1"
+  },
+  "scripts": {
+    "test": "jest"
   }
-
+}

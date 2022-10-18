@@ -1,4 +1,4 @@
-const quizQuestions = [
+// const quizQuestions = [
     {
     question: "What is Comic Book Guy's real name?",
     answers: ["Clark Thompson", "Herschel Krustowsky", "Jeffrey Albertson", "Tom McNeil"],
