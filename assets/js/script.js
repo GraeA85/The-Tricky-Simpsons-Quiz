@@ -19,7 +19,7 @@ function showQuestion() {
     answerD.innerHTML = quizQuestions[questionIndex].answers[3];
     resetOptionStyle();
 }
-// shuffles questions and answers from quizQuestions - fisher-yates shuffle - https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/ //
+// shuffles questions and answers from quizQuestions - fisher-yates shuffle - https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/ and wikipedia //
 function shuffle(array) {
     
     for (let i = array.length - 1; i > 0; i--) {
@@ -107,3 +107,5 @@ function beginGame() {
 }
 
 beginGame();
+
+module.exports = {beginGame, incrementCorrectAnswer, incrementWrongAnswer};
