@@ -1,0 +1,11 @@
+{
+    "schemaVersion": "1",
+    "javascript": {
+        "name": "The-Tricky-Simpsons-Quiz",
+        "rootDir": "./",
+        "testEnvironment": "jsdom",
+        "testLocationStrategy": "relativeToProjectRoot",
+        "testLocationFolder": "./ponicode",
+        "testNamePattern": "{name}.test.{ext}"
+    }
+}
