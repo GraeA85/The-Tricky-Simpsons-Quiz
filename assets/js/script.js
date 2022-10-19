@@ -174,7 +174,7 @@ function initEventListeners() {
     answers.forEach(function (answer) {
         answer.onclick = onOptionClick;
     });
-//next prevents the question choice skipping to next question - user must click the next button //
+//next prevents the question selection skipping to next question - user must click the next button //
   next.addEventListener('click', nextQuestion);
   addEventListener('keypress', nextQuestion);
 }
@@ -185,5 +185,3 @@ function beginGame() {
 }
 
 beginGame();
-
-module.exports = {quizQuestions, beginGame, incrementCorrectAnswer, incrementWrongAnswer};
