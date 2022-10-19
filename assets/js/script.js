@@ -138,7 +138,7 @@ function nextQuestion() {
 function reloadGame() {
     window.location.reload();
 }
-// adds a score to correct anwers score - scoring system based on code institute modules (love maths)//
+// adds a score to correct answers score - scoring system based on code institute modules (love maths)//
 function incrementCorrectAnswer() {
     let addScoreCount = parseInt(document.getElementById("correct_answers").innerText);
     document.getElementById("correct_answers").innerText = addScoreCount + 1;
@@ -186,3 +186,4 @@ function beginGame() {
 
 beginGame();
 
+module.exports = {beginGame, showQuestion, initEventListeners, incrementCorrectAnswer, incrementWrongAnswer, shuffle, showQuestion, resetOptionStyle,disableOptions};
