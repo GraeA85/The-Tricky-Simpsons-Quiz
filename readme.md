@@ -1,4 +1,7 @@
-# The Tricky Simpsons Quia
+# The Tricky Simpsons Quiz
+
+![Am I responsive Image of how the home page and gaming page looks across different browser sizes](assets/images/amiresponsive.jpg)
+<br>
 
 The Simpsons Tricky Quiz is a quiz entertainment site for fans of the Simpsons TV Show to test and expand their knowledge. The site was heavily designed to match the typical Simpsons colours/design on each of the three pages. The design is fully responsive so can be accessed on a variety of devices. It is easily navigatable on mobile devices as well as desktop PCs. 
 
@@ -8,18 +11,19 @@ The site also contains a contact page to allow site users to give feedback on th
 
 THe site provides help for users who might find themselves unfamiliar with a quiz site, however most visitors will have came across a similar site in the past. Because of this, I haver designed the site to stand out as much as possible and have chosen some quite obscure questions which hopefully are not too common in existing quizzes.
 
-Link to live site
+The live website can be found [here](https://graea85.github.io/The-Tricky-Simpsons-Quiz/index.html)
 
 ## Contents
-* UX (User Experience)
-* User Stories
-Site Owner Goals
-Design Choices
-Fonts
-Colours
-Imagery
-Wireframes
-Technologies
+* [Project Research](#project-research)
+* [UX (User Experience)](#ux-user-experience)
+* [User Stories](#user-stories)
+* [Site Owner Goals](#)
+* [Design Choices](#design-choices)
+* [Fonts](#fonts)
+* [Colours](#colours)
+* [Imagery](#imagery)
+* [Wireframes](#wireframes)
+* [Technologies](#technologies)
 Languages
 Libraries
 Tools
@@ -75,8 +79,8 @@ Quiz games are a timeless form of entertainment that are used by people of all a
 
 ### Site Owner Goals
 
-As the site owner I want to  get people interested in the Simpsons TV Show and further educate them around the subject. This will hopefully encourage them to watch the programme and to learn more obscure facts as they go.
-As the site owner I want the site to be easy to navigate and be free of any bugs - ultimately for the user to enjoy the website and not leave due to bugs or related issues.
+ - As the site owner I want to  get people interested in the Simpsons TV Show and further educate them around the subject. This will hopefully encourage them to watch the programme and to learn more obscure facts as they go.
+ - As the site owner I want the site to be easy to navigate and be free of any bugs - ultimately for the user to enjoy the website and not leave due to bugs or related issues.
 <br>
 
 ## Design Choices
@@ -101,64 +105,60 @@ The colours compliments each other well as to allow accessibility and readabilit
 *** 
 The Brand image on index.html is a picture of the famous Simpsons donut, which features numerous times throughout the TV show. I have added some interactivity to this logo - when hovered over (on desktop PC) the Donut spins. This also allows it to be seen as an interactive button - when clicked the Donut will refresh the page and present the user with the quiz starting modal, if the user has closed it. The homepage features an image of the Simpsons Home which is very recognisable to viewers of the TV show. All images were sourced through free-to-use websites or permission was saught to use them.
 
-Wireframes
-The wireframes were created using Balsamiq and can be accessed via the links below.
+## Wireframes
+***
+I created wireframes using Balsamiq, showing the site on a desktop pc and mobile screen. Please click the links below:
 
-Desktop view
+- [Desktop Homepage wireframe](assets/Wireframes/Quiz%20homepage%20(desktop).pdf)
+- [Mobile homepage wireframe](assets/Wireframes/Quiz%20homepage%20(mobile).pdf)
+- [Desktop game page wireframe](assets/Wireframes/game%20page%20(desktop).pdf)
+- [Mobile game page wireframe](assets/Wireframes/Quiz%20homepage%20(mobile).pdf)
 
-Home
-How To
-Contact Page
-Game Play
-Results
-Mobile view
-
-Home
-How to
-Contact Page
-Game Play
-Results
-Back to home page
-
-Technologies
-HTML
-This project uses HTML as the main language used to complete the structure of the Website. The Gitpod template used was created by Code Institute
-CSS
-This project uses custom written CSS to style the html.
-Bootstrap
-The layout of the website was created from a Bootstrap template. The CDN is present in the head of the HTML code and the Javascript script required is present at the end of the HTML code.
-Font Awesome
-Font awesome icons are present throughout the website - the Navbar Brand (site logo) is prefixed with a font awesome icon. Each section of the homepage uses a font awesome icon relevant to each piece of content. The icons for the bottom section of the home page each use a font awesome icon. The footer present on each page also uses font awesome icons for each of the social media links.
-Google Fonts
-Google fonts are used throughout the website and are linked to in the page head. The fonts used are Lobster and IBM Plex Sans.
-GitHub
-GitHub was the hosting site used to store the source code for the Website and Git Pages is used for the deployment of the live site.
-Gitpod
-Git was used to create and edit all code used to build the website and store assets. It also functions as version control software to commit and push code to the GitHub repository where the source code is stored.
-TinyJPG
-TinyJPG is used to reduce the file sizes of images before being deployed to reduce storage and bandwidth. Used on all images in the image gallery.
-Google Chrome Developer Tools
-Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles. Allows the testing of features/code without editing of your own HTML/CSS.
-balsamiq Wireframes
-This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
-MS PAINT
-Used to edit some of the images present on the website, mainly those used in the navigation bar.
-Post CSS
-I ran my code through this tool to ensure no errors were present and it was recommended to use to fix any errors with Ipad resolutions.
-Favicon
-Favicon.io was used to make the site favicon - the font icon itself was taken from Font Awesome.
-Techsini
-tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image at the start of the README.
-NVDA
-NVDA screen reader software used to test the accessibility of the website
+## Technologies
+***
+* HTML
+	* This project uses HTML as the main language used to complete the structure of the Website. The Gitpod template used was created by Code Institute
+* CSS
+	* This project uses custom written CSS to style the html.
+* [Bootstrap](https://getbootstrap.com/)
+	* The layout of the website was created from a Bootstrap template. The CDN is present in the head of the HTML code and the Javascript script required is present at the end of the HTML code.
+* [Font Awesome](https://fontawesome.com/)
+	* Font awesome icons are present throughout the website - the Navbar Brand (site logo) is prefixed with a font awesome icon. Each section of the homepage uses a font awesome icon relevant to each piece of content. The icons for the bottom section of the home page each use a font awesome icon. The footer present on each page also uses font awesome icons for each of the social media links. 
+* [GitHub](https://github.com/)
+	* GitHub was the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+* [Gitpod](https://git-scm.com/)
+	* Git was used to create and edit all code used to build the website and store assets. It also functions as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [TinyJPG](https://tinyjpg.com/)
+	* TinyJPG is used to reduce the file sizes of images before being deployed to reduce storage and bandwidth. Used on all images in the image gallery.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles. Allows the testing of features/code without editing of your own HTML/CSS.
+* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+* [MS PAINT](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9)
+    * Used to edit some of the images present on the website, mainly those used in the navigation bar.
+* [Post CSS](https://postcss.org/)
+    * I ran my code through this tool to ensure no errors were present and it was recommended to use to fix any errors with Ipad resolutions. 
+* [Favicon](https://favicon.io/)
+    * Favicon.io was used to make the site favicon - the font icon itself was taken from Font Awesome.
+* [Techsini](http://techsini.com/multi-mockup/index.php)
+    * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image at the start of the README.
+* [NVDA](https://www.nvaccess.org/)
+    * NVDA screen reader software used to test the accessibility of the website
 
 
-Features
-Features Implemented
+## Features
+***
+### Existing Features
+<br>
 
-Header
+* ### Navigation Bar
+***
+![Navbar](assets/images/navbar-desktop.jpg)
+<br><br>
+![navbarmobile](assets/images/navbar-mobile.jpg) ![navbaropen](assets/images/navbar-mobile-open.jpg)
+<br><br>
 
-The header (taken from Bootstrap) on the home page contains the brand image (which re-opens the modal if closed by the user) and the navigational links fixed to the top of the page. The navbar collapses to a hamburger menu when viewed on smaller screens to increase the user experience, and to allow the links to fit effectively on smaller screens.
+* The navigation bar (taken from Bootstrap) on the home page contains the brand image (which re-opens the modal if closed by the user) and the navigational links fixed to the top of the page. The navbar collapses to a hamburger menu when viewed on smaller screens to increase the user experience, and to allow the links to fit effectively on smaller screens.
 The navigational links become underlined when the user hovers over them (on non-touch screens) as part of an effective UI. The brand image is a donut that is famous within the TV show - this has added interactivity in that it spins when hovered over.
 Typical to good UI/UX design, the brand (home button) is on the left of the screen and the navigational links are on the right of the screen. The navbar links allow the user to start the game (taking the user to the quiz page), recieve help (the link re-opens the modal on the help page, rather than having the user navigate from the initial modal page) and a contact us modal. I decided to keep the website as small and slick as possible - having the contact us page as a modal rather than taking the user to a seperate page. This allows the user to start the quiz quicker, which is the main point of the website.
 The navbar is set to transparent - this allows the user to enjoy the homepage image and the interactivity of the brand logo.
