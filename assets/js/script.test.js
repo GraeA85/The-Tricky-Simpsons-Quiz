@@ -4,6 +4,7 @@
 
 let beginGame;
 
+
   beforeAll(() => {
      let fs = require("fs");
      let fileContents = fs.readFileSync("game.html", "utf-8");
@@ -13,6 +14,7 @@ let beginGame;
 
 
      beginGame = require("./script")
+     
       });
 
       describe("game object contains correct keys", () => {
@@ -59,5 +61,4 @@ let beginGame;
           expect(document.getElementById("incorrect_answers").innerText).toEqual(0);
          });
       });
-
     

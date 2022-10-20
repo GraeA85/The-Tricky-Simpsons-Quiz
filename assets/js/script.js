@@ -135,15 +135,12 @@ function nextQuestion() {
 
 }
 
-function reloadGame() {
-    window.location.reload();
-}
-// adds a score to correct answers score - scoring system based on code institute modules (love maths)//
+// adds a score to correct answers score count - scoring system based on code institute modules (love maths)//
 function incrementCorrectAnswer() {
     let addScoreCount = parseInt(document.getElementById("correct_answers").innerText);
     document.getElementById("correct_answers").innerText = addScoreCount + 1;
 }
-// adds a score to the incorrect score //
+// adds a score to the incorrect score count //
 function incrementWrongAnswer() {
     let wrongAnswerCount = parseInt(document.getElementById("incorrect_answers").innerText);
     document.getElementById("incorrect_answers").innerText = wrongAnswerCount + 1;
@@ -186,4 +183,4 @@ function beginGame() {
 
 beginGame();
 
-module.exports = {beginGame, showQuestion, initEventListeners, incrementCorrectAnswer, incrementWrongAnswer, shuffle, showQuestion, resetOptionStyle,disableOptions};
+module.exports = {beginGame, showQuestion, initEventListeners, incrementCorrectAnswer, incrementWrongAnswer, shuffle, showQuestion, resetOptionStyle,disableOptions,};

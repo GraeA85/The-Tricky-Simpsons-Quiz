@@ -33,6 +33,10 @@
 .navbar-brand {
     padding-left: 0.5em;
 }
+.navbar-toggler {
+    color:#fcd424 !important;
+    margin-right: 5px;
+    }
 
 /* CSS to add interactive element to navbar logo (donut) */
 #donut {
