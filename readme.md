@@ -1,4 +1,4 @@
-About
+# The Tricky Simpsons Quia
 
 The Simpsons Tricky Quiz is a quiz entertainment site for fans of the Simpsons TV Show to test and expand their knowledge. The site was heavily designed to match the typical Simpsons colours/design on each of the three pages. The design is fully responsive so can be accessed on a variety of devices. It is easily navigatable on mobile devices as well as desktop PCs. 
 
@@ -10,9 +10,9 @@ THe site provides help for users who might find themselves unfamiliar with a qui
 
 Link to live site
 
-Contents
-UX (User Experience)
-User Stories
+## Contents
+* UX (User Experience)
+* User Stories
 Site Owner Goals
 Design Choices
 Fonts
@@ -36,53 +36,70 @@ Code
 Content
 Images
 
-UX (User Experience)
 
-User Stories
-As a Fan of the Simpsons TV Show
+## Project Research
+***
+Having been a fan of The Simpsons TV show for about 30 years I have quite a lot of obscure knowledge around the subject. I have created a quiz to allow both newcomers and veteran fans to test their existing knowledge, learn new information about the show and hopefully further
+peak their interest to read around it. I have presented the quiz in a way that is typical of the Simpsons design and colour scheme which will provide instant familiarity to anyone that has viewed the tv show. The knowledge presented in the quiz is quite obscure with some slightly easier answers (not many however!). It is presented in a way for replayability by using a shuffle function with further features to be added in the future.
+There are many existing quiz sites on the internet so I have tried to make it as unique as possible, while still maintaining a level of familiarity as to allow users to instantly understand the concept of the website.
+<br><br>
+### Research Analysis
+***
+Quiz games are a timeless form of entertainment that are used by people of all ages and backgrounds - be it either a digital quiz such as this one, or more traditional quizzes such as a pub quiz. They remain popular to this day despite quite a high level of saturation so having quite a unique website and question choices will help the website stand out amongst other quiz websites.
+<br><br>
 
-I want to play the game to test my existing knowledge of the Simpsons and hopefully learn some quite obscure facts and have some fun in the process.
-I want to be able to visit and share on my social media accounts my interest in the Simpsons TV Show. 
-I want the site to be interactive and fun to look at, and to keep my interest through the quiz.
-I want the quiz to follow a Simpsons Theme.
-I want to be able to click a help button that explains how to take part in the quiz and be able to leave the quiz easily.
+### UX (User Experience)
+***
+## User Stories
+<br>
 
-As a user returning to the site:
+#### As a Fan of the Simpsons TV Show
 
-I want to be able to re-test my knowledge on the Simpsons and get a higher score this time around.
-I want to be able to be able to access help to explain the quiz, in case I have forgot since my last visit.
+- I want to play the game to test my existing knowledge of the Simpsons and hopefully learn some quite obscure facts and have some fun in the process.
+- I want to be able to visit and share on my social media accounts my interest in the Simpsons TV Show. 
+- I want the site to be interactive and fun to look at, and to keep my interest through the quiz.
+- I want the quiz to follow a Simpsons Theme.
+- I want to be able to click a help button that explains how to take part in the quiz and be able to leave the quiz easily.
 
-All users
+### As a user returning to the site:
 
-I want the site to be fully accessible on a range of devices - I want to be able to take the quiz sat at my desk to use during work breaks, and I want to be able to access the quiz on the go on a mobile device.
-I want the quiz to be easy to navigate - showing a question at a time rather than having to scroll down a page to answer multiple questions (pagination).
-I want to see how many questions I guess correctly and incorrectly.
-I want to be able to give feedback to the site owner and view their social media pages for more information.
+- I want to be able to re-test my knowledge on the Simpsons and get a higher score this time around.
+- I want to be able to be able to access help to explain the quiz, in case I have forgot since my last visit.
 
-Site Owner Goals
+### All users
+
+- I want the site to be fully accessible on a range of devices - I want to be able to take the quiz sat at my desk to use during work breaks, and I want to be able to access the quiz on the go on a mobile device.
+- I want the quiz to be easy to navigate - showing a question at a time rather than having to scroll down a page to answer multiple questions (pagination).
+- I want to see how many questions I guess correctly and incorrectly.
+- I want to be able to give feedback to the site owner and view their social media pages for more information.
+
+### Site Owner Goals
+
 As the site owner I want to  get people interested in the Simpsons TV Show and further educate them around the subject. This will hopefully encourage them to watch the programme and to learn more obscure facts as they go.
-As the site owner I want the site to be easy to navigate and be free of any bugs - ultimately for the user to enjoy the website and not leave due to issues.
-Back to contents
+As the site owner I want the site to be easy to navigate and be free of any bugs - ultimately for the user to enjoy the website and not leave due to bugs or related issues.
+<br>
 
-Design Choices
-Fonts
-I have opted to use the Simpons Font throughout the website to be in-keeping with the overall theme. In order to use this font I had to download the font and have the website access it, rather than relying on Google fonts where it was not available.
+## Design Choices
+***
 
-Example here
+### Fonts
+I have opted to use the Simpons Font throughout the website to be in-keeping with the overall theme. In order to use this font I had to download the font and have the website access it, rather than relying on Google fonts where it was not available. The font was taken from fonts4free.net
+<br><br>
+![Font](assets/images/simpson-font.png)
+<br><br>
 
-Colours
+### Colours
 The site follows the main Simpsons colour scheme (blue, yellow, black and white) so I have tried to use these as much as possible throughout the website. These colours already create a good contrast and improve readability without having to stray too far from the theme.
 
-The colours chosen are:
+The color palette below is used throughout the site (generated on coolors.co):
+<br><br>
+![Palette](assets/images/Simpsons.png)
+<br><br>
+The colours compliments each other well as to allow accessibility and readability.
 
-Coolors Palette
-
-Format: Coolors Palette
-
-THe colour scheme compliments each other well as to allow accessibility and readability.
-
-Imagery
-The Brand image on index.html is a picture of the famous Simpsons donut, which features numerous times throughout the TV show. I have added some interactivity to this logo - when hovered over (on desktop pcs) the Donut spins. This also allows it to be seen as an interactive button - when clicked the Donut will refresh the page and present the user with the quiz starting modal, if the user has closed it. The homepage features an image of the Simpsons Home which is very recognisable to viewers of the TV show. All images were sourced through free-to-use websites or permission was saught to use them.
+## Imagery
+*** 
+The Brand image on index.html is a picture of the famous Simpsons donut, which features numerous times throughout the TV show. I have added some interactivity to this logo - when hovered over (on desktop PC) the Donut spins. This also allows it to be seen as an interactive button - when clicked the Donut will refresh the page and present the user with the quiz starting modal, if the user has closed it. The homepage features an image of the Simpsons Home which is very recognisable to viewers of the TV show. All images were sourced through free-to-use websites or permission was saught to use them.
 
 Wireframes
 The wireframes were created using Balsamiq and can be accessed via the links below.
