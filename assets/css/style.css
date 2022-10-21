@@ -68,7 +68,6 @@
 
 .modal-content {
     background: url("../images/clouds.jpg");
-    background-color: #70D1FE;
     text-align: center;
     border-bottom: transparent;
     max-width: 450px;
@@ -82,7 +81,6 @@
     background-position: center center;
     background-attachment: fixed;
     padding: 0.5rem 0.5rem;
-    background-color: #70D1FE;
 }
 
 .modal-body {
@@ -92,7 +90,6 @@
     background-position: center center;
     background-attachment: fixed;
     padding: 0.5rem 0.5rem;
-    background-color: #70D1FE;
     color: black;
 }
 
