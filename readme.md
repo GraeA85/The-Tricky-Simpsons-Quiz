@@ -310,7 +310,7 @@ The testing file can be found within the repository - script.test.js.
 - CSS
   - No major errors were found when passing through the official [(Jigsaw) validator]
 - JSLint
-  - No major errors were found when massping through the official [(JSlint) validator]
+  - No major errors were found when passing through the official [(JSlint) validator]
 <br><br>
 *** 
 
