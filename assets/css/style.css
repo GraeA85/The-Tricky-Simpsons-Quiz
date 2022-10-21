@@ -248,11 +248,41 @@ h2 {
 
 /* media query for ultrawide screens */
 
-@media only screen and (min-width: 1961px) {
-    h2 {
-        width: 980px;
-        
+@media only screen and (min-width: 1961px) and (max-width: 3439px) {
+   
+    .question-container {
+        width: 60%;
+        margin-top: 100px;
     }
+
+    h2 {
+        font-size: 2.8em;
+    }
+
+    .answer-box {
+        margin-bottom: 40px !important;
+    }
+
+    h2 {
+        width: 1100px;
+        margin-left: 80px;
+    }
+
+     #return-btn1 {
+        text-align: center !important;
+    }
+
+    .answer-box:hover {
+        background-image: url("../images/clouds.jpg");
+    }
+    #score-table {
+        margin-left: 320px;
+    }
+
+    
+}
+
+@media only screen and (width: 3440px) and (height: 1440px) {
 
     .question-container {
         width: 60%;
@@ -269,22 +299,26 @@ h2 {
 
     h2 {
         width: 1100px;
-        margin-left: 10px;
+        margin-left: 200px;
     }
 
      #return-btn1 {
         text-align: center !important;
+        margin-left: 700px;
     }
 
     .answer-box:hover {
         background-image: url("../images/clouds.jpg");
     }
     #score-table {
-        margin-left: 320px;
+        margin-left: 550px;
     }
 
-    
+    #next-question {
+        margin-left: 660px !important;
+     }
 }
+
 /* media query for ipad mini screen */
 @media only screen and (width: 768px) and (height: 1024px) {
  #answers {

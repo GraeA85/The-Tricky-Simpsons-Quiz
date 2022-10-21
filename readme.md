@@ -24,26 +24,21 @@ The live website can be found [here](https://graea85.github.io/The-Tricky-Simpso
 * [Imagery](#imagery)
 * [Wireframes](#wireframes)
 * [Technologies](#technologies)
-Features
-Features Implemented
-Future Features
-Responsive Design
-Version Control
-Testing
-Deployment
-Running Locally
-Credits
-Code
-Content
-Images
-
-
+* [Features](#features)
+* [Future Features](#future-features)
+* [Responsive Design](#responsive-design)
+* [Version Control](#version-control)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+<br><br>
 ## Project Research
 ***
 Having been a fan of The Simpsons TV show for about 30 years I have quite a lot of obscure knowledge around the subject. I have created a quiz to allow both newcomers and veteran fans to test their existing knowledge, learn new information about the show and hopefully further
 peak their interest to read around it. I have presented the quiz in a way that is typical of the Simpsons design and colour scheme which will provide instant familiarity to anyone that has viewed the tv show. The knowledge presented in the quiz is quite obscure with some slightly easier answers (not many however!). It is presented in a way for replayability by using a shuffle function with further features to be added in the future.
 There are many existing quiz sites on the internet so I have tried to make it as unique as possible, while still maintaining a level of familiarity as to allow users to instantly understand the concept of the website.
 <br><br>
+
 ### Research Analysis
 ***
 Quiz games are a timeless form of entertainment that are used by people of all ages and backgrounds - be it either a digital quiz such as this one, or more traditional quizzes such as a pub quiz. They remain popular to this day despite quite a high level of saturation so having quite a unique website and question choices will help the website stand out amongst other quiz websites.
@@ -101,7 +96,7 @@ The color palette below is used throughout the site (generated on coolors.co):
 <br><br>
 ![Palette](assets/images/Simpsons.png)
 <br><br>
-The colours compliments each other well as to allow accessibility and readability.
+The colours compliment each other well as to allow accessibility and readability.
 
 ## Imagery
 *** 
@@ -207,6 +202,7 @@ The contact modal is accessed from the homepage, allowing users to send any feed
 
 The thank you page is acknowledgement for submitting the form.
 <br><br>
+
 ## Future Features
 
  * Play a Simpsons sound on the game complete page - either celebratory if the users correct answers are more than incorrect or a commiseratory sound otherwise.
@@ -223,10 +219,12 @@ A bootstrap template was used for the layout of the webpage, ensuring mobile-fir
 ***
 
 <br>
+
 ## Version Control
 Regular code commits were carried out throughout the creation of the website. I initially followed a quiz making guide from https://www.sitepoint.com/simple-javascript-quiz/ however the pagination and display of the questions became very confusing so I deleted the progress and started again following a much more in-depth guide from https://www.codingninjas.com/codestudio/library/how-to-create-a-javascript-quiz-code and countless help from stack overflow. 
 ***
 ***
+
 ## Gitpod Workspaces
 
 Using gitpod as my IDE, I used the codeinstitute template which provides several helpful tools to build any project required. 
@@ -254,7 +252,7 @@ Testing will concentrate on:
 * Testing the shuffle function - ensuring the user is shown a random question each time they start/refresh the quiz
 * Testing the quit game button works by redirecting the user to the homepage
 
-Manual testing allows you to develop user story testing and develop the user experience at a higher level. Having multiple manual testers ensures any bugs or issues with the site are more likely to be found and be able to be fixed. By having multiple users test the site, I received feedback to add additional features that increased the replayability of the game (namely the shuffle function).
+Manual testing allows you to develop user story testing and develop the user experience to a higher level. Having multiple manual testers ensures any bugs or issues with the site are more likely to be found and fixed. By having multiple users test the site, I received feedback to add additional features that increased the replayability of the game (namely the shuffle function).
 
 <br>
 
