@@ -41,6 +41,7 @@ The live website can be found [here](https://graea85.github.io/The-Tricky-Simpso
 	- [Inspiration](#inspiration)
 	- [Acknowledgements](#acknowledgements)
 	<br>
+
 ## Project Research
 ***
 Having been a fan of The Simpsons TV show for about 30 years I have quite a lot of obscure knowledge around the subject. I have created a quiz to allow both newcomers and veteran fans to test their existing knowledge, learn new information about the show and hopefully further
@@ -225,7 +226,6 @@ The thank you page is acknowledgement for submitting the form.
 ## Responsive Design
 <br>
 A bootstrap template was used for the layout of the webpage, ensuring mobile-first design. This was then styled with custom CSS and several media-querys used to ensure the webpage remains with its intended layout regardless of screen size used. Flexbox was also used which made arranging certain elements a lot easier.
-***
 
 <br>
 
