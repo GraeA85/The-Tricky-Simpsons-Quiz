@@ -317,8 +317,6 @@ Once the development process was well underway, the website was deployed to GitH
 Opened up the website repo in GitHub and opened the settings tab.
 The master branch was selected in the drop down menu to ensure my website was linked to correctly.
 Once this was selected the page is automatically deployed and the external website link is presented.
-The live link can be found here - 
-
 
 ## Credits
 
