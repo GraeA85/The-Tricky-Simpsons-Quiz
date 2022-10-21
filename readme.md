@@ -24,9 +24,6 @@ The live website can be found [here](https://graea85.github.io/The-Tricky-Simpso
 * [Imagery](#imagery)
 * [Wireframes](#wireframes)
 * [Technologies](#technologies)
-Languages
-Libraries
-Tools
 Features
 Features Implemented
 Future Features
@@ -52,12 +49,13 @@ There are many existing quiz sites on the internet so I have tried to make it as
 Quiz games are a timeless form of entertainment that are used by people of all ages and backgrounds - be it either a digital quiz such as this one, or more traditional quizzes such as a pub quiz. They remain popular to this day despite quite a high level of saturation so having quite a unique website and question choices will help the website stand out amongst other quiz websites.
 <br><br>
 
-### UX (User Experience)
+## UX (User Experience)
 ***
 ## User Stories
 <br>
 
-#### As a Fan of the Simpsons TV Show
+###  As a Fan of the Simpsons TV Show
+<br>
 
 - I want to play the game to test my existing knowledge of the Simpsons and hopefully learn some quite obscure facts and have some fun in the process.
 - I want to be able to visit and share on my social media accounts my interest in the Simpsons TV Show. 
@@ -66,11 +64,13 @@ Quiz games are a timeless form of entertainment that are used by people of all a
 - I want to be able to click a help button that explains how to take part in the quiz and be able to leave the quiz easily.
 
 ### As a user returning to the site:
+<br>
 
 - I want to be able to re-test my knowledge on the Simpsons and get a higher score this time around.
 - I want to be able to be able to access help to explain the quiz, in case I have forgot since my last visit.
 
 ### All users
+<br>
 
 - I want the site to be fully accessible on a range of devices - I want to be able to take the quiz sat at my desk to use during work breaks, and I want to be able to access the quiz on the go on a mobile device.
 - I want the quiz to be easy to navigate - showing a question at a time rather than having to scroll down a page to answer multiple questions (pagination).
@@ -78,21 +78,23 @@ Quiz games are a timeless form of entertainment that are used by people of all a
 - I want to be able to give feedback to the site owner and view their social media pages for more information.
 
 ### Site Owner Goals
+<br>
 
  - As the site owner I want to  get people interested in the Simpsons TV Show and further educate them around the subject. This will hopefully encourage them to watch the programme and to learn more obscure facts as they go.
  - As the site owner I want the site to be easy to navigate and be free of any bugs - ultimately for the user to enjoy the website and not leave due to bugs or related issues.
+<br>
 <br>
 
 ## Design Choices
 ***
 
-### Fonts
+## Fonts
 I have opted to use the Simpons Font throughout the website to be in-keeping with the overall theme. In order to use this font I had to download the font and have the website access it, rather than relying on Google fonts where it was not available. The font was taken from fonts4free.net
 <br><br>
 ![Font](assets/images/simpson-font.png)
 <br><br>
 
-### Colours
+## Colours
 The site follows the main Simpsons colour scheme (blue, yellow, black and white) so I have tried to use these as much as possible throughout the website. These colours already create a good contrast and improve readability without having to stray too far from the theme.
 
 The color palette below is used throughout the site (generated on coolors.co):
@@ -120,6 +122,10 @@ I created wireframes using Balsamiq, showing the site on a desktop pc and mobile
 	* This project uses HTML as the main language used to complete the structure of the Website. The Gitpod template used was created by Code Institute
 * CSS
 	* This project uses custom written CSS to style the html.
+* JavaScript
+	* JavaScript language used to create the quiz game and scoring system for the site
+* Jest
+	* Jest used for testing of JavaScript
 * [Bootstrap](https://getbootstrap.com/)
 	* The layout of the website was created from a Bootstrap template. The CDN is present in the head of the HTML code and the Javascript script required is present at the end of the HTML code.
 * [Font Awesome](https://fontawesome.com/)
@@ -148,10 +154,10 @@ I created wireframes using Balsamiq, showing the site on a desktop pc and mobile
 
 ## Features
 ***
-### Existing Features
+## Existing Features
 <br>
 
-* ### Navigation Bar
+* ## Navigation Bar
 ***
 ![Navbar](assets/images/navbar-desktop.jpg)
 <br><br>
@@ -163,68 +169,151 @@ The navigational links become underlined when the user hovers over them (on non-
 Typical to good UI/UX design, the brand (home button) is on the left of the screen and the navigational links are on the right of the screen. The navbar links allow the user to start the game (taking the user to the quiz page), recieve help (the link re-opens the modal on the help page, rather than having the user navigate from the initial modal page) and a contact us modal. I decided to keep the website as small and slick as possible - having the contact us page as a modal rather than taking the user to a seperate page. This allows the user to start the quiz quicker, which is the main point of the website.
 The navbar is set to transparent - this allows the user to enjoy the homepage image and the interactivity of the brand logo.
 
-Homepage
+## Homepage and Footer
+***
+![homepage](assets/images/homepage.jpg)
+<br><br>
 
-Upon arriving on the homepage (index.html) a modal launches the modal launches welcoming the player to the website. It gives a brief explanation of the page and offers the user to either start the quiz or recieve help regarding it.
+* Upon arriving on the homepage (index.html) a modal launches the modal launches welcoming the player to the website. It gives a brief explanation of the page and offers the user to either start the quiz or recieve help regarding it.
+Once the user clicks the play button, they are taken to the quiz page (game.html). The quiz background is the standard Simpsons Yellow with an Image of Homer Simpsons face that scales depending on screen size. The quiz questions are displayed to the left of Homers face for an interesting and engaging design. On smaller screens Homers face moves to below the quiz next to the users score tally - on smaller mobiles Homer's face is removed as to allow the display of the quiz without having to scoll the page. I have included a quit game button on the quiz pages which takes the user back to the homepage. I have not included the navbar on the quiz pages as I felt the page should only include the quiz with no other distractions.
 
-Once the user clicks the play button, they are taken to the quiz page (game.html). The quiz background is the standard Simpsons Yellow with an Image of Homer Simpsons face that scales depending on screen size. The quiz questions are displayed to the left of Homers face for an interesting and engaging design. On smaller screens Homers face moves to below the quiz next to the users score tally. I have included a quit game button on the quiz pages which takes the user back to the homepage. I have not included the navbar on the quiz pages as I felt the page should only include the quiz with no other distractions.
-
-Footer
+## Footer
+***
 
 The footer contains social media links that would link to the website creators social media pages. I decided to give it a level of opacity to allow the fontawesome icons to stand out. The footer is fixed to the bottom of the page at all times.
 
-Questions and Answers (game.html)
+## Quiz Game
+***
+![quiz](assets/images/quiz-page.jpg) ![quiz](assets/images/quiz-mobile.jpg)
 
-The quiz section is loaded to game.html via the script.js file. The questions and answers are stored in a variable in a separate js file (questions.js) to the main script.js file and then accessed by script.js to display on game.html. The question is displayed at the top of the screen in a heavier font to ensure it stands out on the page. The possible answers are displayed below in separate clickable boxes. In-keeping with the colour scheme, the anwer boxes are "simpsons blue". Once an answer is chosen the box colour changes to either green (indicating correct answer) or red (indicating incorrect answer). Once an answer is picked the correct or incorrect score will be increased, depending on the users answer. At this point, the answer boxes are disabled as to not allow any further answer selection - the user must then click the "next" button to advance to the next question. I considered having the page skip to the next question automatically upon selection however this would not give the user enough time to review and reflect upon their answer choice. The quiz also allows the user to skip a question without answering - this will be then reflected in their final score.
 
-Results
+The quiz section is loaded to game.html via the script.js file. The questions and answers are stored in a variable in a separate js file (questions.js) to the main script.js file and then accessed by script.js to display on game.html. The question is displayed at the top of the screen in a heavier font to ensure it stands out on the page. The possible answers are displayed below in separate clickable boxes. In-keeping with the colour scheme, the anwer boxes are "simpsons blue". Once an answer is chosen the box colour changes to either green (indicating correct answer) or red (indicating incorrect answer). Once an answer is picked the correct or incorrect score will be increased, depending on the users answer. At this point, the answer boxes are disabled as to not allow any further answer selection - the user must then click the "next" button to advance to the next question. I considered having the page skip to the next question automatically upon selection however this would not give the user enough time to review and reflect upon their answer choice. The quiz also allows the user to skip a question without answering - this is reflected in their final score.
+
+## Results
+***
+![results](assets/images/game-complete.jpg)
 
 The results section is revealed once the user has completed 15 questions. Currently, the webpage states game complete and shows the users final correct and incorrect answers. The user can then quit the game using the link, which will return them to the homepage, or leave the webpage by normal browser means.
 
-Contact modal
+## Contact modal
+***
+![contact](assets/images/contact-modal.jpg)
 
-To be added
+The contact modal is accessed from the homepage, allowing users to send any feedback or comments to the website creator. Once submitted, the user is taken to a thank you page as acknowledgement of completing the form.
 
-Future Features
+## Form Acknowledgement
+***
+![thanks](assets/images/thanks-page.jpg)
+
+The thank you page is acknowledgement for submitting the form.
+<br><br>
+## Future Features
+
  * Play a Simpsons sound on the game complete page - either celebratory if the users correct answers are more than incorrect or a commiseratory sound otherwise.
  * Show a custom image on the results page which shows a specific image depending on the users final score, with Simpsons related quotes.
- * Updated questions each week/month and a leaderboard for fans
- * SKill ranges for questions selections (easy, medium and hard mode)
+ * Updated questions each week/month and a leaderboard
+ * Skill ranges for questions selections (easy, medium and hard mode)
  * Further and more robust automatic testing via Jest for any future implementations to the site.
  * An option to select a Simpsons character at the start of the quiz to add further interactivity
+***
 
-Responsive Design
+## Responsive Design
+<br>
 A bootstrap template was used for the layout of the webpage, ensuring mobile-first design. This was then styled with custom CSS and several media-querys used to ensure the webpage remains with its intended layout regardless of screen size used. Flexbox was also used which made arranging certain elements a lot easier.
+***
 
-Version Control
+<br>
+## Version Control
 Regular code commits were carried out throughout the creation of the website. I initially followed a quiz making guide from https://www.sitepoint.com/simple-javascript-quiz/ however the pagination and display of the questions became very confusing so I deleted the progress and started again following a much more in-depth guide from https://www.codingninjas.com/codestudio/library/how-to-create-a-javascript-quiz-code and countless help from stack overflow. 
+***
+***
+## Gitpod Workspaces
 
-Gitpod Workspaces
 Using gitpod as my IDE, I used the codeinstitute template which provides several helpful tools to build any project required. 
+***
 
-Testing
+## Testing
+<br>
 
-User Stories Testing
-As a user visiting the site for the first time, I want to navigate the site quickly and efficiently.
-Visitor can access all parts of the website from the homepage. They can start the quiz from the modal pop-up or via the navbar link, if they have chosen to close the modal. Once the user has started the quiz they can return to the homepage by clicking the quit game link.
-As a user, I want to be able to access help that explains how to use the website.
-THe user can be given an overview of the websites purpose by clicking the help button from the modal or the help link in the navbar.
-As a visitor, I want to be able to take the quiz to increase my knowledge and find out obscure Simpsons knowledge. 
-The visitor can start the quiz from the homepage via either the modal pop-up or the start quiz button in the navbar.
-As a visitor, I want to be able to give feedback to the website owner.
-The visitor can click the contact us button which presents the user with a simple modal to allow them to share their thoughts and feelings.
-As a user I want to be able to see my score in the game.
-The user can see their score after answering each question in the quiz - the user is presented with an incorrect and correct score count.
-As a user I want to see the websites social media pages.
-The visitor can click the social media links within the webpages footer.
-As a visitor, once I am finished the quiz I want to return to the homepage.
-The user, you can click the quit game button at any time during the quiz to return to the homepage.
+## Test Strategy
 
-After user feedback, I decided to add a shuffle feature to the questions to increase replayability for visitors to the site. This shuffle feature was taken from the Fisher-Yates algorithm (https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+ Manual testing for this website was done using the Microsoft Edge Browser and the built-in Chrome Developer Tools to check responsiveness on different screensizes and general debugging. Testing was also done on a Nothing Phone (1) using Microsoft Edge. Testing was also carried out on a Microsoft Surface Pro 7 as I encountered some issues with landscape layout through the developer tools. No issues were found with responsiveness and previous issues have been dealt with through custom screen aspect media queries.
+  
+  In addition to my own testing, I sent my website link to family and friends and asked for them to test the website and quiz out using the same methods listed below.
 
-Automatic Testing can be found here
 
-Deployment
+Testing will concentrate on:
+
+* Testing navigational links on each separate page, as well as the site logo which is designed to redirect to the home page
+* Testing the responsiveness of the website, making sure the layout and navigational features remain user friendly with UX design maintained
+* Testing of the form to ensure it functions correctly and does not allow an incomplete entry.
+* Testing the form takes the user to the "thank you" page
+* Testing the modals work correctly and display at all resolution breakpoints - ensuring all buttons navigate correctly
+* Testing the footer social media links to ensure the user is redirected accordingly.
+* Testing the quiz game functions correctly - allowing the user to select one answer per page, that the scores increment correctly (both correct and incorrect) and the user is shown the game complete screen with a final score shown.
+* Testing the shuffle function - ensuring the user is shown a random question each time they start/refresh the quiz
+* Testing the quit game button works by redirecting the user to the homepage
+
+Manual testing allows you to develop user story testing and develop the user experience at a higher level. Having multiple manual testers ensures any bugs or issues with the site are more likely to be found and be able to be fixed. By having multiple users test the site, I received feedback to add additional features that increased the replayability of the game (namely the shuffle function).
+
+<br>
+
+## User Stories Testing
+
+- As a user visiting the site for the first time, I want to navigate the site quickly and efficiently.
+- Visitor can access all parts of the website from the homepage. They can start the quiz from the modal pop-up or via the navbar link, if they have chosen to close the modal. Once the user has started the quiz they can return to the homepage by clicking the quit game link.
+
+- As a user, I want to be able to access help that explains how to use the website.
+- The user can be given an overview of the websites purpose by clicking the help button from the modal or the help link in the navbar.
+
+- As a visitor, I want to be able to take the quiz to increase my knowledge and find out obscure Simpsons knowledge. 
+- The visitor can start the quiz from the homepage via either the modal pop-up or the start quiz button in the navbar.
+
+- As a visitor, I want to be able to give feedback to the website owner.
+- The visitor can click the contact us button which presents the user with a simple modal to allow them to share their thoughts and feelings.
+
+- As a user I want to be able to see my score in the game.
+- The user can see their score after answering each question in the quiz - the user is presented with an incorrect and correct score count.
+
+- As a user I want to see the websites social media pages.
+- The visitor can click the social media links within the webpages footer.
+
+- As a visitor, once I am finished the quiz I want to return to the homepage.
+- The user, you can click the quit game button at any time during the quiz to return to the homepage.
+
+- As a visitor, I don't want to experience any bugs or issues with the site or quiz game
+- After robust manual testing and some automatic unit testing, no bugs have been found within the code for the website, ensuring a seamless visit for the user.
+
+After user feedback, I decided to add a shuffle feature to the questions to increase replayability for visitors to the site. This shuffle feature was taken from the Fisher-Yates algorithm (https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle).
+
+## Automatic Testing
+
+Automatic testing was carried out using the Jest module installed within the Gitpod IDE. In order to carry out the tests, the tests were created within a seperate test file, calling on functions within the main script.js file, where the game is stored. Adding the standard boilerplate to the testing file to ensure the DOM is mocked to allow testing of the individual functions within the script.js file. In future I would implement more robust testing from the start of the project to allow overall less code to be written via the use of unit testing. The vast majority of the automatic testing was based upon the JEST modules within the Code Institute modules, with additional help from slack and stack overflow.  I carried out a total of 11 tests within jest to ensure that the game functions display and function correctly, which can be seen in the testing report below:
+
+![test](assets/images/testing.jpg)
+
+![jesttest](assets/images/jest-test.jpg)
+
+The testing file can be found within the repository - script.test.js.
+***
+## Validator Testing 
+
+- HTML
+  - No major errors were returned when passing through the official [W3C validator]
+- CSS
+  - No major errors were found when passing through the official [(Jigsaw) validator]
+- JSLint
+  - No major errors were found when massping through the official [(JSlint) validator]
+<br><br>
+*** 
+
+## Unfixed Bugs
+
+There are no unfixed bugs present within the website. 
+<br><br>
+
+## Deployment
+***
 Once the development process was well underway, the website was deployed to GitHub pages. In order to achieve this I:
 
 Opened up the website repo in GitHub and opened the settings tab.
@@ -233,25 +322,28 @@ Once this was selected the page is automatically deployed and the external websi
 The live link can be found here - 
 
 
-Credits
+## Credits
+
 CodeInstitute html, css and javascript modules
 SitePoint, codingninjas, geeksforgeeks, slack, stack overflow and code institute love maths project in order to build the quiz and implement the scoring system.
 
-Content
+## Content
+
 The design of the website was inspired by the Simpsons TV show - the questions were created by myself having been an avid fan for 30 years.
 Content is not affiliated with The Simpsons or Fox TV in any way and is purely designed as a fan-site.
 
-Layout
+## Layout
+
 Bootstrap was used as the initial layout of the webpage to allow as much responsiveness from the start. This was then designed using my own custom css.
 
-Images
+## Images
 
 All images were taken from fan sites, free to use pages or permission sought to use.
 Fontawesome was used for the footer social media icons.
 
-Inspiration
-The Quiz Up! mobile app was my main source of inspiration to develop a quiz game (which is sadly now defunct!)
+## Inspiration
+The Quiz Up! mobile app was my main source of inspiration to develop a quiz game (which is sadly now defunct!). Other quiz sites on the internet were also researched for general layout.
 
-Acknowledgements
+## Acknowledgements
 
 Family and friends for user-testing the website to ensure any bugs or user issues were ironed out.

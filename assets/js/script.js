@@ -1,3 +1,5 @@
+
+//Variable containing quiz questions and answers//
 const quizQuestions = [
     {
     question: "What is Comic Book Guy's real name?",
@@ -97,7 +99,7 @@ function showQuestion() {
     answerD.innerHTML = quizQuestions[questionIndex].answers[3];
     resetOptionStyle();
 }
-// shuffles questions and answers from quizQuestions - fisher-yates shuffle - https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/ and wikipedia //
+// shuffles questions and answers from quizQuestions - fisher-yates shuffle - https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/ and wikipedia https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle //
 function shuffle(array) {
     
     for (let i = array.length - 1; i > 0; i--) {
@@ -106,15 +108,13 @@ function shuffle(array) {
     }
 }
 
-
-// reset answer boxes to normal state on new question - code based on quiz game building from https://gamedevacademy.org/javascript-quiz-tutorial/ and advice from stack overflow //
+// reset answer boxes to normal state on new question - code based on quiz game building from https://gamedevacademy.org/javascript-quiz-tutorial/ and advice from slack and stack overflow //
 function resetOptionStyle() {
     let answerBoxes = document.getElementsByClassName('answer-box');
     for (var i = 0; i < answerBoxes.length; i++) {
         answerBoxes[i].style.backgroundColor = "#70D1FE";
         answerBoxes[i].style.color = "black";
         answerBoxes[i].style.pointerEvents = "auto";
-
     }
 }
 // takes user to next question, unless at end then game complete is shown//
@@ -182,5 +182,5 @@ function beginGame() {
 }
 
 beginGame();
-
+//module exports for jest testing file to access //
 module.exports = {beginGame, showQuestion, initEventListeners, incrementCorrectAnswer, incrementWrongAnswer, shuffle, showQuestion, resetOptionStyle,disableOptions,};
