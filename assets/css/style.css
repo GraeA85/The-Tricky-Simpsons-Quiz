@@ -33,10 +33,11 @@
 .navbar-brand {
     padding-left: 0.5em;
 }
+
 .navbar-toggler {
-    color:#fcd424 !important;
+    color: #fcd424 !important;
     margin-right: 5px;
-    }
+}
 
 /* CSS to add interactive element to navbar logo (donut) */
 #donut {
@@ -188,7 +189,7 @@ h2 {
 
 #return-btn1 {
     text-decoration: underline !important;
-      
+
 }
 
 #score-table {
@@ -208,7 +209,7 @@ h2 {
 @media only screen and (min-width: 770px) and (max-width: 1960px) {
     .question-container {
         width: 60%;
-        
+
     }
 
     h2 {
@@ -224,20 +225,20 @@ h2 {
         background-image: url("../images/clouds.jpg");
 
     }
-    
+
 
 }
 
 /* media query for ultrawide screens */
 
 @media only screen and (min-width: 1961px) and (max-width: 3439px) {
-   
+
     .question-container {
         width: 60%;
         margin-top: 100px;
     }
 
-     .answer-box {
+    .answer-box {
         margin-bottom: 40px !important;
     }
 
@@ -246,18 +247,19 @@ h2 {
         font-size: 2.8em;
     }
 
-     #return-btn1 {
+    #return-btn1 {
         text-align: center !important;
     }
 
     .answer-box:hover {
         background-image: url("../images/clouds.jpg");
     }
+
     #score-table {
         margin-left: 320px;
     }
 
-    
+
 }
 
 @media only screen and (width: 3440px) and (height: 1440px) {
@@ -285,29 +287,33 @@ h2 {
     .answer-box:hover {
         background-image: url("../images/clouds.jpg");
     }
+
     #score-table {
         margin-left: 550px;
     }
 
     #next-question {
         margin-left: 660px !important;
-     }
+    }
 }
 
 /* media query for ipad mini screen */
 @media only screen and (width: 768px) and (height: 1024px) {
- #answers {
-    margin-left: 100px;
- }   
- #next-question {
-    margin-left: 240px !important;
- }
- #score-table {
-    margin-left: 140px;
- }
- #return-btn1 {
-    margin-left: 280px !important;
- }
+    #answers {
+        margin-left: 100px;
+    }
+
+    #next-question {
+        margin-left: 240px !important;
+    }
+
+    #score-table {
+        margin-left: 140px;
+    }
+
+    #return-btn1 {
+        margin-left: 280px !important;
+    }
 }
 
 /*media query for mobile phones */
@@ -330,32 +336,33 @@ h2 {
         text-align: center;
     }
 
-    
+
     #next-question {
         margin-left: 70px;
     }
 
-        #answers {
+    #answers {
         height: 50% !important;
         margin-bottom: 5%;
-        }
+    }
 
-        #return-btn1 {
-            margin-left: 100px;
-        }
+    #return-btn1 {
+        margin-left: 100px;
+    }
 
-        .answer-box {
-            width: 300px;
-            height: 70px;
-            font-size: larger;
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            
-        }
-h2 {
-    font-size: larger;
-}
+    .answer-box {
+        width: 300px;
+        height: 70px;
+        font-size: larger;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    h2 {
+        font-size: larger;
+    }
 }
 
 /* Media query to target smaller mobile screens */
@@ -375,8 +382,9 @@ h2 {
     #answers {
         height: 50% !important;
         margin-bottom: 5%;
-        
+
     }
+
     #return-btn1 {
         margin-left: 100px;
     }
@@ -388,19 +396,19 @@ h2 {
         align-items: center;
         display: flex;
         justify-content: center;
-        
+
     }
 
     .game {
         background-image: url("../images/simpsonsyellow.jpg");
-}
+    }
 
-    #correct_score, #incorrect_score {
+    #correct_score,
+    #incorrect_score {
         font-size: 25px;
     }
 
 }
-
 
 /* end of mobile media query */
 
@@ -441,7 +449,7 @@ ul {
 #score-table {
     font-size: 15px;
     display: flex;
-    
+
 }
 
 #incorrect_answers,
