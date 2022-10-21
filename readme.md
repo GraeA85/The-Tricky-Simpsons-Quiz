@@ -40,8 +40,7 @@ The live website can be found [here](https://graea85.github.io/The-Tricky-Simpso
 	- [Images](#images)
 	- [Inspiration](#inspiration)
 	- [Acknowledgements](#acknowledgements)
-	
-<br><br>
+	<br>
 ## Project Research
 ***
 Having been a fan of The Simpsons TV show for about 30 years I have quite a lot of obscure knowledge around the subject. I have created a quiz to allow both newcomers and veteran fans to test their existing knowledge, learn new information about the show and hopefully further
