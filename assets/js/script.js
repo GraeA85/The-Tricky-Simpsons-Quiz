@@ -106,7 +106,7 @@ function shuffle(array) {
     }
 }
 
-// reset answer boxes to normal state on new question - code based on quiz game building from https://gamedevacademy.org/javascript-quiz-tutorial/ and advice from slack and stack overflow //
+// reset answer boxes to normal state on new question - code based on quiz game building from https://gamedevacademy.org/javascript-quiz-tutorial/ and the love maths project from code institute and advice from slack and stack overflow //
 function resetOptionStyle() {
     let answerBoxes = document.getElementsByClassName('answer-box');
     for (var i = 0; i < answerBoxes.length; i++) {
